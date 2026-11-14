@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://djfn3g6l7q6ae"]
+
+[ext_resource type="Script" uid="uid://dy5hgnbefonjc" path="res://scripts/brick_template.gd" id="1_gd8f3"]
+[ext_resource type="Texture2D" uid="uid://bdodpwy5helk8" path="res://assets/img/flowers/blue1/Asset-50@10x.png" id="2_ef8s8"]
+
+[node name="BrickTemplate" type="StaticBody2D" unique_id=69732412]
+script = ExtResource("1_gd8f3")
+
+[node name="TextureRect4" type="TextureRect" parent="." unique_id=880180126]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -138.29999
+offset_top = -138.0
+offset_right = 155.70001
+offset_bottom = 138.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("2_ef8s8")
+stretch_mode = 2
+
+[node name="Area2D" type="Area2D" parent="." unique_id=397300885]
+position = Vector2(2, 7)
+
+[node name="CollisionShape2D2" type="CollisionPolygon2D" parent="Area2D" unique_id=2009692363]
+position = Vector2(20.700012, -380.4)
+polygon = PackedVector2Array(-157.70001, 119, -195.70001, 140, -228.70001, 185, -256.7, 242, -281.7, 318, -274.7, 415, -240.70001, 514, -119.70001, 604, 48.299988, 612, 172.29999, 549, 242.29999, 426, 254.29999, 324, 233.29999, 255, 209.29999, 196, 152.29999, 141, 181.29999, 209, 207.29999, 261, 218.29999, 325, 211.29999, 391, 181.29999, 408, 196.29999, 438, 166.29999, 485, 123.29999, 473, 112.29999, 527, 66.29999, 546, 18.299988, 520, -4.700012, 571, -55.700012, 569, -77.70001, 513, -136.70001, 527, -186.70001, 503, -169.70001, 469, -217.70001, 462, -234.70001, 420, -219.70001, 393, -241.70001, 381, -250.70001, 335, -233.70001, 323, -249.70001, 307, -239.70001, 259, -224.70001, 255, -229.70001, 239, -216.70001, 203, -200.70001, 204, -208.70001, 191, -187.70001, 160, -173.70001, 161, -180.70001, 145)
+
+[node name="CollisionShape2D2" type="CollisionPolygon2D" parent="." unique_id=1182308720]
+position = Vector2(22.700012, -373)
+polygon = PackedVector2Array(-157.70001, 119, -195.70001, 140, -228.70001, 185, -256.7, 242, -281.7, 318, -274.7, 415, -240.70001, 514, -119.70001, 604, 48.299988, 612, 172.29999, 549, 242.29999, 426, 254.29999, 324, 233.29999, 255, 209.29999, 196, 152.29999, 141, 181.29999, 209, 207.29999, 261, 218.29999, 325, 211.29999, 391, 181.29999, 408, 196.29999, 438, 166.29999, 485, 123.29999, 473, 112.29999, 527, 66.29999, 546, 18.299988, 520, -4.700012, 571, -55.700012, 569, -77.70001, 513, -136.70001, 527, -186.70001, 503, -169.70001, 469, -217.70001, 462, -234.70001, 420, -219.70001, 393, -241.70001, 381, -250.70001, 335, -233.70001, 323, -249.70001, 307, -239.70001, 259, -224.70001, 255, -229.70001, 239, -216.70001, 203, -200.70001, 204, -208.70001, 191, -187.70001, 160, -173.70001, 161, -180.70001, 145)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://ddcynh6yki1tm"]
+
+[ext_resource type="PackedScene" uid="uid://cwgssm1qeea48" path="res://actual/elements/ramp.tscn" id="1_qd2h8"]
+[ext_resource type="PackedScene" uid="uid://tb1uixtl4kok" path="res://actual/elements/ball.tscn" id="2_xraay"]
+[ext_resource type="PackedScene" uid="uid://b57ihk0gp6mig" path="res://actual/elements/flowers/big_blue/big_blue.tscn" id="5_7dpxd"]
+
+[node name="TestScene" type="Node2D" unique_id=1516968806]
+
+[node name="Ramp" parent="." unique_id=1870165492 instance=ExtResource("1_qd2h8")]
+position = Vector2(-72, 680)
+
+[node name="Ball" parent="." unique_id=445269483 node_paths=PackedStringArray("ramp") instance=ExtResource("2_xraay")]
+position = Vector2(1038, -372)
+speed = 800.0
+ramp = NodePath("../Ramp")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=968421856]
+position = Vector2(-1139, -685)
+scale = Vector2(2, 2)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D" unique_id=126971477]
+polygon = PackedVector2Array(-56.5, 695.5, 1197, 695.5, 1196.5, -10.5, -55, -11, -60.5, -42, 1236, -36, 1251, 724, -148, 751.5, -105, -31, -57.5, -13)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1930375642]
+zoom = Vector2(0.46, 0.46)
+
+[node name="BigBlue" parent="." unique_id=620189949 instance=ExtResource("5_7dpxd")]
+position = Vector2(-4, -99)

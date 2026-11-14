@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://bnyolisd3jabk"]
+
+[ext_resource type="Texture2D" uid="uid://dirkwous4ehg1" path="res://assets/img/flowers/blue1/Asset-1@10x.png" id="1_pw34j"]
+[ext_resource type="Texture2D" uid="uid://5855x7cobdrh" path="res://assets/img/flowers/blue1/Asset-2@10x.png" id="2_jlyf5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vqba7"]
+radius = 168.57639
+
+[node name="test_brick" type="Node2D" unique_id=110143561]
+
+[node name="back" type="StaticBody2D" parent="." unique_id=517463710]
+
+[node name="TextureRect" type="TextureRect" parent="back" unique_id=2143030142]
+texture_filter = 2
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -173.0
+offset_top = -153.0
+offset_right = 171.0
+offset_bottom = 171.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_pw34j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="back" unique_id=555038081]
+visible = false
+shape = SubResource("CircleShape2D_vqba7")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2128215918]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1680470003]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -129.0
+offset_top = -456.0
+offset_right = 130.0
+offset_bottom = -197.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_jlyf5")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=898269610]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect3" type="TextureRect" parent="." unique_id=391442933]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect4" type="TextureRect" parent="." unique_id=1368031576]
+offset_right = 40.0
+offset_bottom = 40.0

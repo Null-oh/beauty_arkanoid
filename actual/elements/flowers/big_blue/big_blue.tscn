@@ -1,0 +1,751 @@
+[gd_scene format=3 uid="uid://b57ihk0gp6mig"]
+
+[ext_resource type="Texture2D" uid="uid://dirkwous4ehg1" path="res://assets/img/flowers/blue1/Asset-1@10x.png" id="1_bhq8q"]
+[ext_resource type="Script" uid="uid://dexc5eyqsn3ol" path="res://testing/rigid_brick.gd" id="1_ybp1p"]
+[ext_resource type="Texture2D" uid="uid://5855x7cobdrh" path="res://assets/img/flowers/blue1/Asset-2@10x.png" id="2_ybp1p"]
+[ext_resource type="Texture2D" uid="uid://craan2m5r3inb" path="res://assets/img/flowers/blue1/Asset-3@10x.png" id="3_3cg0u"]
+[ext_resource type="Texture2D" uid="uid://dhk4sl4kjgunf" path="res://assets/img/flowers/blue1/Asset-4@10x.png" id="4_vgonm"]
+[ext_resource type="Texture2D" uid="uid://dc6ssh5wsrocs" path="res://assets/img/flowers/blue1/Asset-5@10x.png" id="5_6igl5"]
+[ext_resource type="Texture2D" uid="uid://c0pjk5cwa6r8r" path="res://assets/img/flowers/blue1/Asset-6@10x.png" id="6_cco8b"]
+[ext_resource type="Texture2D" uid="uid://bem2jevfshdx3" path="res://assets/img/flowers/blue1/Asset-7@10x.png" id="7_kmecy"]
+[ext_resource type="Texture2D" uid="uid://crq30u5vj27v5" path="res://assets/img/flowers/blue1/Asset-8@10x.png" id="8_gdxvo"]
+[ext_resource type="Texture2D" uid="uid://tfpnc74l4lxv" path="res://assets/img/flowers/blue1/Asset-9@10x.png" id="9_8xavu"]
+[ext_resource type="Texture2D" uid="uid://bkbadi78cewea" path="res://assets/img/flowers/blue1/Asset-10@10x.png" id="10_gqqfq"]
+[ext_resource type="Texture2D" uid="uid://clrfa3xsx5oyq" path="res://assets/img/flowers/blue1/Asset-11@10x.png" id="11_k110k"]
+[ext_resource type="Texture2D" uid="uid://d0m3rkm14830i" path="res://assets/img/flowers/blue1/Asset-12@10x.png" id="12_h43hs"]
+[ext_resource type="Texture2D" uid="uid://b7g2wba8wv1ri" path="res://assets/img/flowers/blue1/Asset-13@10x.png" id="13_4vlvq"]
+[ext_resource type="Texture2D" uid="uid://by838m40pyj4" path="res://assets/img/flowers/blue1/Asset-14@10x.png" id="14_efkhx"]
+[ext_resource type="Texture2D" uid="uid://b2tcvm43f7yw4" path="res://assets/img/flowers/blue1/Asset-15@10x.png" id="15_7h2mf"]
+[ext_resource type="Texture2D" uid="uid://ivrr7ou38f2c" path="res://assets/img/flowers/blue1/Asset-16@10x.png" id="16_dqj8x"]
+[ext_resource type="Texture2D" uid="uid://cdpaqfhb3fnnk" path="res://assets/img/flowers/blue1/Asset-17@10x.png" id="17_jd1vy"]
+[ext_resource type="Texture2D" uid="uid://fkk0cw6ecr77" path="res://assets/img/flowers/blue1/Asset-18@10x.png" id="18_0h0w2"]
+[ext_resource type="Texture2D" uid="uid://x0ycvxjmrv2x" path="res://assets/img/flowers/blue1/Asset-19@10x.png" id="19_3xdcx"]
+[ext_resource type="Texture2D" uid="uid://bcfu64r0jyqmf" path="res://assets/img/flowers/blue1/Asset-20@10x.png" id="20_gxqpv"]
+[ext_resource type="Texture2D" uid="uid://b4wc6dd7ften7" path="res://assets/img/flowers/blue1/Asset-21@10x.png" id="21_gd171"]
+[ext_resource type="Texture2D" uid="uid://mt1y6un5a1hg" path="res://assets/img/flowers/blue1/Asset-22@10x.png" id="22_uh6or"]
+[ext_resource type="Texture2D" uid="uid://6juk2iji22do" path="res://assets/img/flowers/blue1/Asset-23@10x.png" id="23_io00x"]
+[ext_resource type="Texture2D" uid="uid://d0vq4x1wnknl7" path="res://assets/img/flowers/blue1/Asset-24@10x.png" id="24_57q1p"]
+[ext_resource type="Texture2D" uid="uid://b54m6vodevpfp" path="res://assets/img/flowers/blue1/Asset-25@10x.png" id="25_hullf"]
+[ext_resource type="Texture2D" uid="uid://b4aqw35kqlmns" path="res://assets/img/flowers/blue1/Asset-26@10x.png" id="26_8lpwe"]
+[ext_resource type="Texture2D" uid="uid://mwjv6wgu8u8q" path="res://assets/img/flowers/blue1/Asset-27@10x.png" id="27_wgx2m"]
+[ext_resource type="Texture2D" uid="uid://3sdynhsejxgv" path="res://assets/img/flowers/blue1/Asset-28@10x.png" id="28_blffu"]
+[ext_resource type="Texture2D" uid="uid://dku33br8uhy75" path="res://assets/img/flowers/blue1/Asset-29@10x.png" id="29_j5g0n"]
+[ext_resource type="Texture2D" uid="uid://cfqy2tabux2ix" path="res://assets/img/flowers/blue1/Asset-30@10x.png" id="30_6fuat"]
+[ext_resource type="Texture2D" uid="uid://bw1nifp4n24sy" path="res://assets/img/flowers/blue1/Asset-31@10x.png" id="31_77imc"]
+[ext_resource type="Texture2D" uid="uid://brpdguuv7tlgg" path="res://assets/img/flowers/blue1/Asset-32@10x.png" id="32_57sn3"]
+[ext_resource type="Texture2D" uid="uid://cv76uds702yt6" path="res://assets/img/flowers/blue1/Asset-33@10x.png" id="33_sdont"]
+[ext_resource type="Texture2D" uid="uid://d1fkovhebmau6" path="res://assets/img/flowers/blue1/Asset-34@10x.png" id="34_dorqy"]
+[ext_resource type="Texture2D" uid="uid://4dm880oe4iku" path="res://assets/img/flowers/blue1/Asset-35@10x.png" id="35_qvln8"]
+[ext_resource type="Texture2D" uid="uid://d3q5e6ldi4mvu" path="res://assets/img/flowers/blue1/Asset-36@10x.png" id="36_t4fnb"]
+[ext_resource type="Texture2D" uid="uid://b4la6lcw3swi4" path="res://assets/img/flowers/blue1/Asset-37@10x.png" id="37_j46qu"]
+[ext_resource type="Texture2D" uid="uid://bruehjwuy7itb" path="res://assets/img/flowers/blue1/Asset-38@10x.png" id="38_22xuw"]
+[ext_resource type="Texture2D" uid="uid://fw832j0iusv5" path="res://assets/img/flowers/blue1/Asset-39@10x.png" id="39_btqq4"]
+[ext_resource type="Texture2D" uid="uid://yc1m4xvsjkba" path="res://assets/img/flowers/blue1/Asset-40@10x.png" id="40_d47m1"]
+[ext_resource type="Texture2D" uid="uid://gfy7g60n8agh" path="res://assets/img/flowers/blue1/Asset-41@10x.png" id="41_isbrs"]
+[ext_resource type="Texture2D" uid="uid://7vunqvfomy38" path="res://assets/img/flowers/blue1/Asset-42@10x.png" id="42_qsqx4"]
+[ext_resource type="Texture2D" uid="uid://bg5tkra8wvvnd" path="res://assets/img/flowers/blue1/Asset-43@10x.png" id="43_gdse1"]
+[ext_resource type="Texture2D" uid="uid://ct44lhma7i70c" path="res://assets/img/flowers/blue1/Asset-44@10x.png" id="44_4wjf2"]
+[ext_resource type="Texture2D" uid="uid://iwolxdx6m3mr" path="res://assets/img/flowers/blue1/Asset-45@10x.png" id="45_0etmw"]
+[ext_resource type="Texture2D" uid="uid://bn81hpwvmoo2a" path="res://assets/img/flowers/blue1/Asset-46@10x.png" id="46_tydk7"]
+[ext_resource type="Texture2D" uid="uid://chprat157kci5" path="res://assets/img/flowers/blue1/Asset-47@10x.png" id="47_lr55s"]
+[ext_resource type="Texture2D" uid="uid://dh0qumsbokfww" path="res://assets/img/flowers/blue1/Asset-48@10x.png" id="48_3ulrf"]
+[ext_resource type="Texture2D" uid="uid://6wwjirx2vqc8" path="res://assets/img/flowers/blue1/Asset-49@10x.png" id="49_aybci"]
+[ext_resource type="Texture2D" uid="uid://bdodpwy5helk8" path="res://assets/img/flowers/blue1/Asset-50@10x.png" id="50_0am61"]
+
+[node name="BigBlue" type="Node2D" unique_id=620189949]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=396722453 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+back = true
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D" unique_id=862714391]
+texture = ExtResource("1_bhq8q")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D" unique_id=1468983545]
+polygon = PackedVector2Array(-163.4, -404.5, -201.8, -404.5, -223.3, -394.5, -226.6, -394.5, -243.6, -369.5, -245.7, -369.5, -250.5, -349, -250.5, -334.8, -244, -316.5, -268.7, -326.5, -289.2, -326.5, -311.3, -318.5, -314, -318.5, -334.1, -300.5, -336, -300.5, -346, -279.5, -348.2, -279.5, -350.5, -249.7, -350.5, -240.6, -337.5, -213.7, -337.5, -210.6, -323.8, -199.6, -335.3, -200.5, -347.3, -200.5, -374.3, -189.5, -377.2, -189.5, -403.2, -161.5, -405.5, -161.5, -413.4, -135.5, -415.7, -135.5, -414.5, -104.399994, -414.5, -98.600006, -402.5, -73.70001, -402.5, -70.70001, -377.5, -48.799988, -377.5, -46.700012, -360, -40.200012, -385.2, -31.5, -388.2, -31.5, -415.1, -4.5, -417.3, -4.5, -429.5, 29.200012, -429.5, 81.29999, -413.5, 109.599976, -413.5, 112.5, -379.5, 137.5, -379.5, 139.70001, -339.9, 148.5, -335, 148.5, -307.7, 141.59998, -320.4, 157.5, -322.4, 157.5, -337.5, 203.90002, -337.5, 228.09998, -325.5, 265, -325.5, 267.90002, -300.5, 298, -300.5, 300, -253.5, 322, -253.5, 324.59998, -205.4, 323.5, -199.5, 323.5, -156.5, 299.5, -153.4, 299.5, -132.5, 268.90002, -132.5, 294, -125.5, 319.09998, -125.5, 322.59998, -109.5, 350.59998, -109.5, 353.09998, -88.5, 375.09998, -88.5, 376.8, -54.5, 396.7, -54.5, 398.59998, -32.899994, 404.5, 37.5, 404.5, 78.5, 382.5, 81.29999, 382.5, 110.29999, 349.5, 112.20001, 349.5, 128.20001, 308.5, 130.29999, 308.5, 132, 268, 155.5, 296, 155.5, 298.09998, 198.5, 318, 198.5, 320.5, 252.5, 320.5, 293.5, 299.5, 296.40002, 299.5, 320.40002, 270.5, 322.5, 270.5, 335.5, 227.5, 337.90002, 227.5, 334.5, 188.20001, 334.5, 183.5, 313.5, 145.90002, 331.09998, 149.5, 344.09998, 149.5, 384.09998, 136.5, 387.2, 136.5, 417.2, 105.5, 419.40002, 105.5, 429.5, 75.20001, 429.5, 23.600006, 415.5, -2.5, 415.5, -5.299988, 388.5, -28.399994, 388.5, -30.299988, 361.09998, -40.399994, 381.5, -50.5, 384.40002, -50.5, 404.40002, -75.5, 406.59998, -75.5, 414.59998, -107.5, 417.2, -107.5, 411.5, -142.5, 411.5, -146.70001, 399.5, -165.7, 399.5, -168.4, 377.5, -186.4, 377.5, -188.4, 349.5, -197.4, 349.5, -199.8, 324.59998, -198.2, 328.90002, -201.5, 330.8, -201.5, 344.8, -225.5, 346.8, -225.5, 351.5, -249.1, 351.5, -257, 346.5, -277.2, 346.5, -280.9, 326.5, -306.9, 326.5, -309, 301.5, -321, 301.5, -323.4, 270.59998, -324.5, 263.59998, -324.5, 242.90002, -314.2, 249.5, -347.1, 249.5, -354.3, 242.5, -371.3, 242.5, -374.1, 225.5, -392.1, 225.5, -394.1, 202.5, -404.2, 163.90002, -404.5, 142.40002, -392.5, 139.40002, -392.5, 121.20001, -365.3, 79.5, -377.5, 79.5, -379, 22.5, -386.1, 22.5, -387.7, -41.700012, -384.5, -49, -384.5, -121.100006, -364.6, -127.5, -377.5, -127.5, -380.3, -145.5, -396.4, -145.5, -398.3)
+
+[node name="RigidBody2D2" type="RigidBody2D" parent="." unique_id=1974556478 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D2" unique_id=669569214]
+position = Vector2(0, -347)
+texture = ExtResource("2_ybp1p")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D2" unique_id=1703780442]
+position = Vector2(0, -347)
+polygon = PackedVector2Array(-19, -129, -19, -127.3, -47, -120, -50.5, -120, -75.5, -104, -78, -104, -100.9, -80, -102.6, -80, -119.6, -48, -121.3, -48, -127.3, -19, -129.1, -19, -128, 15.600006, -128, 23.100006, -120, 47, -120, 50.600006, -100, 80.5, -100, 83.100006, -70, 108.100006, -70, 109.8, -39, 122.8, -39, 124.5, -19, 127.5, -19, 129.29999, 31.800003, 125, 36.300003, 125, 65.399994, 111, 67.8, 111, 96.8, 85, 98.5, 85, 117.5, 53, 119.3, 53, 127.29999, 19, 129.29999, 19, 125, -31.800003, 125, -36.4, 100, -80.4, 100, -83.1, 73, -106.2, 73, -107.7, 48, -119.8, 48, -121.3, 19, -127.4, 19, -129)
+
+[node name="RigidBody2D3" type="RigidBody2D" parent="." unique_id=469184690 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D3" unique_id=883215300]
+position = Vector2(0, -94)
+texture = ExtResource("3_3cg0u")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D3" unique_id=1951558314]
+position = Vector2(0, -94)
+polygon = PackedVector2Array(152.1, -208.7, 147.9, -206.8, 147.9, -202.2, 181.79999, -161.9, 207.29999, -113.899994, 220.70001, -62.899994, 221.90002, -12.399994, 221.90002, -3.100006, 207.9, 49, 207.9, 51.5, 180.9, 99.600006, 180.9, 101, 137.9, 145, 95.899994, 170.5, 50.899994, 185.9, 11.899994, 191.29999, -16.399994, 190.9, -27.100006, 190.9, -58.100006, 183.9, -61.699997, 183.9, -89.8, 172.9, -92.5, 172.9, -129.5, 150.9, -131, 150.9, -184, 96.899994, -215.2, 29.899994, -222.5, -11.100006, -222.9, -55.199997, -214.9, -91.100006, -214.9, -94.899994, -200.9, -128.8, -200.9, -131.6, -177.9, -167.4, -177.9, -169.2, -150.9, -200.2, -150.9, -204.8, -155.1, -206.7, -200.9, -167.1, -202.4, -167.1, -234.3, -122.100006, -235.9, -122.100006, -256.9, -73.100006, -258.5, -73.100006, -269.5, -8.100006, -271.3, -8.100006, -267.1, 55.700012, -267.1, 62.100006, -247.1, 121.100006, -247.1, 124.600006, -205.1, 186.6, -205.1, 189.1, -157.1, 231.09998, -157.1, 232.70001, -91.100006, 265.7, -91.100006, 267.5, -30.100006, 279.40002, -30.100006, 281.2, 35.600006, 279.09998, 43, 279.09998, 107, 259.09998, 110.600006, 259.09998, 170.6, 220.1, 173.1, 220.1, 217.1, 172.1, 218.70001, 172.1, 251.70001, 110.100006, 253.40002, 110.100006, 268.40002, 42.100006, 270.2, 42.100006, 268.09998, -23.600006, 268.09998, -31, 250.09998, -90, 250.09998, -93.600006, 209.1, -156.6, 209.1, -159.1)
+
+[node name="RigidBody2D4" type="RigidBody2D" parent="." unique_id=810104941 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D4" unique_id=1295392860]
+position = Vector2(0, 333)
+texture = ExtResource("4_vgonm")
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="RigidBody2D4" unique_id=622526150]
+position = Vector2(0, 333)
+polygon = PackedVector2Array(-122.1, -40.5, -127.5, -39.3, -127.5, -26.900002, -112.5, 15.099998, -112.5, 17.800003, -81.5, 53.800003, -81.5, 55.5, -54.5, 71.399994, -54.5, 73.2, -17.399994, 83.5, 17, 83.5, 57.5, 70, 60.199997, 70, 89.2, 47, 90.899994, 47, 115.899994, 8, 117.79999, 8, 127.399994, -34.7, 125, -35.3, 122, -37.4, 100.5, -3.5, 100.5, -2.0999985, 78.5, 18, 44.5, 35.300003, 5.800003, 43, -5.800003, 43, -44.6, 35, -47, 35, -79.1, 17, -80.4, 17, -107.5, -12)
+
+[node name="RigidBody2D5" type="RigidBody2D" parent="." unique_id=25678173 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D5" unique_id=200049656]
+position = Vector2(363, 53)
+texture = ExtResource("5_6igl5")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D5" unique_id=496142407]
+position = Vector2(363, 53)
+polygon = PackedVector2Array(34.9, -74.1, 3.0999985, -89.4, 3.0999985, -81.5, 23.099998, -62.6, 37.5, -37.6, 43.800003, -11.599998, 42.1, 15.900002, 42.1, 20.199997, 32.1, 43.300003, 32.1, 44.699997, 17.099998, 62.800003, -5.9000015, 77.100006, -38.9, 86.399994, -38.9, 93.3, -4.5999985, 94.399994, 3.199997, 94.399994, 37.199997, 79.399994, 40, 79.399994, 63, 53.399994, 65, 53.399994, 75.100006, 19.400002, 75.5, 1.5, 73.899994, -14.300003, 73.899994, -18.800003, 60.899994, -44.8, 60.899994, -47.4, 34.9, -72.6)
+
+[node name="RigidBody2D6" type="RigidBody2D" parent="." unique_id=1493388613 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D6" unique_id=1170005117]
+position = Vector2(-362, 52)
+texture = ExtResource("6_cco8b")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D6" unique_id=1101074404]
+position = Vector2(-362, 52)
+polygon = PackedVector2Array(-9, -86, -30.2, -75.4, -32.9, -75.4, -54.9, -53.4, -56.6, -53.4, -68.6, -30.400002, -70.3, -30.400002, -75.3, -5.4000015, -75.5, 7.5999985, -70.9, 37.5, -70.9, 41.199997, -46.9, 72.100006, -46.9, 74, -25.900002, 86, -25.900002, 87.7, -5.9000015, 92.600006, -5.9000015, 94.5, 35.6, 93.399994, 39.4, 93.399994, 40.300003, 87.600006, 11, 78.600006, 8.5, 78.600006, -18.5, 60.600006, -19.7, 60.600006, -32.8, 42.600006, -42.1, 17.599998, -42.7, 17.599998, -44.1, 10, -44.1, -13.5, -38.1, -34.5, -38.1, -37.199997, -25.099998, -59.1, -25.099998, -60.7, -5, -81.7, -7.5, -84)
+
+[node name="RigidBody2D7" type="RigidBody2D" parent="." unique_id=114227186 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D7" unique_id=1002212002]
+position = Vector2(363, -119)
+texture = ExtResource("7_kmecy")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D7" unique_id=772170678]
+position = Vector2(363, -119)
+polygon = PackedVector2Array(9.400002, -78.1, -32.4, -81.7, -32.4, -74.9, 7.199997, -55.6, 8.400002, -55.6, 23.400002, -37.6, 34.699997, -10.599998, 35.6, 23.099998, 35.6, 27.199997, 27.599998, 45.300003, 27.599998, 46.699997, 11.599998, 66.8, 11.599998, 71.100006, 15.199997, 73, 32, 61.399994, 34.6, 61.399994, 49.6, 43.399994, 51.5, 43.399994, 62.6, 7.4000015, 63, -5.0999985, 59.4, -27.5, 59.4, -31.2, 34.4, -62.2, 34.4, -64.1, 9.400002, -76.2)
+
+[node name="RigidBody2D8" type="RigidBody2D" parent="." unique_id=494580881 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D8" unique_id=1351101048]
+position = Vector2(-365, -121)
+texture = ExtResource("8_gdxvo")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D8" unique_id=1202231976]
+position = Vector2(-365, -121)
+polygon = PackedVector2Array(33.6, -79.1, 5.5999985, -81.7, 5.5999985, -79.5, -20.400002, -71.4, -23.3, -71.4, -46.3, -50.4, -48.1, -50.4, -58.1, -30.400002, -59.9, -30.400002, -63, -10.400002, -63, 4.0999985, -61.4, 16.400002, -61.4, 20.800003, -52.4, 38.699997, -52.4, 41.300003, -37.4, 57.300003, -37.4, 59, -15.900002, 71.399994, -11.900002, 71.399994, -10, 67.7, -31, 39, -36.6, 3.5, -36.6, -4.4000015, -28.599998, -26.400002, -28.599998, -28.900002, -16.599998, -45.9, -16.599998, -47.4, 5.4000015, -64.3, 29.5, -72.6, 33.199997, -72.6)
+
+[node name="RigidBody2D9" type="RigidBody2D" parent="." unique_id=2066813527 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D9" unique_id=2062934216]
+position = Vector2(187, -354)
+texture = ExtResource("9_8xavu")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D9" unique_id=790028309]
+position = Vector2(187, -354)
+polygon = PackedVector2Array(26.300003, -49.8, 12.599998, -52, -8.400002, -52, -22.099998, -49.3, -26, -49.3, -47.3, -35.8, -47.3, -28.6, -7.299999, -40.1, 26.599998, -30.7, 27.5, -30.7, 47.5, -7.700001, 56.5, 23.300003, 63, 23.300003, 63, 16.300003, 61.300003, -3.2999992, 61.300003, -8.900002, 48.300003, -30.9, 48.300003, -33.8, 26.300003, -47.9)
+
+[node name="RigidBody2D10" type="RigidBody2D" parent="." unique_id=2004881660 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D10" unique_id=686380128]
+position = Vector2(-189, -361)
+texture = ExtResource("10_gqqfq")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D10" unique_id=625708057]
+position = Vector2(-189, -361)
+polygon = PackedVector2Array(37.199997, -45.5, 11.199997, -52, -12.900002, -52, -22.099998, -50.2, -26.099998, -50.2, -48.1, -32.2, -50.1, -32.2, -60.1, -9.200001, -62, -9.200001, -63, 5.799999, -63, 15.5, -58.6, 38.199997, -51.8, 38.199997, -51.8, 7.700001, -44.8, -9.400002, -44.8, -10.799999, -26.8, -29.7, -6.799999, -37.8, 22.099998, -37.8, 52.199997, -20.8, 56.199997, -20.8, 57.800003, -24.9, 37.199997, -43.5)
+
+[node name="RigidBody2D11" type="RigidBody2D" parent="." unique_id=1291645445 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D11" unique_id=1923032275]
+position = Vector2(298, -260)
+texture = ExtResource("11_k110k")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D11" unique_id=1425657295]
+position = Vector2(298, -260)
+polygon = PackedVector2Array(15.699997, -68, -21.7, -70.4, -21.7, -68.3, -49.7, -57.2, -49.7, -49.9, -30.099998, -54.8, -19.900002, -54.8, 2, -47.8, 4.4000015, -47.8, 25.400002, -30.8, 38.4, -7.0999985, 40.300003, 24.199997, 40.300003, 28.099998, 23.300003, 58.199997, 23.300003, 62.100006, 27.300003, 63.800003, 51.9, 39.199997, 53.9, 39.199997, 62.5, 8.599998, 62.5, -7.199997, 58.699997, -26, 58.699997, -30.099998, 40.699997, -52.2, 40.699997, -54, 15.699997, -66.1)
+
+[node name="RigidBody2D12" type="RigidBody2D" parent="." unique_id=1848029441 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D12" unique_id=1979658126]
+position = Vector2(-294, -259)
+texture = ExtResource("12_h43hs")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D12" unique_id=332281715]
+position = Vector2(-294, -259)
+polygon = PackedVector2Array(27.699997, -69.1, -5.700001, -70.3, -5.700001, -68.5, -17.900002, -65.2, -21.5, -65.2, -37.4, -54.2, -40, -54.2, -52, -39.2, -53.8, -39.2, -61.8, -15.200001, -62.5, -15.200001, -62.5, 14.699997, -57.7, 27.5, -57.7, 31.199997, -29.900002, 62.199997, -22.099998, 62.199997, -37.6, 33.800003, -40.9, 18.800003, -40.3, 3.0999985, -40.3, -1.4000015, -31.3, -21.3, -31.3, -22.8, -13.299999, -41.7, 7.300003, -51.8, 50.1, -51.8, 51.199997, -56.9, 27.699997, -67.1)
+
+[node name="RigidBody2D13" type="RigidBody2D" parent="." unique_id=83247116 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D13" unique_id=1413228454]
+position = Vector2(233, 227)
+texture = ExtResource("13_4vlvq")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D13" unique_id=1733207756]
+position = Vector2(233, 227)
+polygon = PackedVector2Array(79.3, -84.3, 74.8, -82.9, 74.8, -79.1, 82.399994, -45.3, 79.8, -20.699997, 79.8, -16.300003, 62.800003, 17.699997, 62.800003, 19.099998, 32.800003, 48.100006, -13.699997, 67.3, -39.6, 67.3, -61.5, 60.300003, -64, 60.300003, -91, 42.300003, -95.1, 42.300003, -96.8, 46.100006, -66.2, 79.8, -66.2, 81.600006, -23.199997, 99.600006, -23.199997, 101.7, 24.699997, 101.7, 62.800003, 83.7, 65.5, 83.7, 93.5, 49.699997, 95.5, 49.699997, 107.5, 3.699997, 109.8, 3.699997, 101.2, -48, 101.2, -51.5)
+
+[node name="RigidBody2D14" type="RigidBody2D" parent="." unique_id=301555988 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D14" unique_id=640180772]
+position = Vector2(-233, 231)
+texture = ExtResource("14_efkhx")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D14" unique_id=1546272172]
+position = Vector2(-233, 231)
+polygon = PackedVector2Array(-80.7, -82.2, -81.1, -81.5, -98.8, -52.7, -100.5, -52.7, -108.2, -21.900002, -108.2, 7, -95.2, 45.899994, -95.2, 48.699997, -69.2, 78.600006, -69.2, 80.5, -31.199997, 98.5, -31.199997, 100.600006, 15, 101.7, 21.699997, 101.7, 60.699997, 83.7, 63.399994, 83.7, 93.399994, 50.600006, 92, 49.300003, 92, 48.5, 90.5, 45.699997, 59.800003, 61.600006, 39.600006, 67.3, 14.600006, 67.3, -8.5, 60.300003, -11.099998, 60.300003, -39.1, 42.300003, -40.6, 42.300003, -66.5, 12.300003, -78.9, -16.699997, -81.8, -28.5, -81.8, -53.1, -74.9, -80.7, -78, -81.5, -79.6, -81.5)
+
+[node name="RigidBody2D15" type="RigidBody2D" parent="." unique_id=655162024 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D15" unique_id=2146652387]
+position = Vector2(0, 268)
+texture = ExtResource("15_7h2mf")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D15" unique_id=1998388064]
+position = Vector2(0, 268)
+polygon = PackedVector2Array(-113.1, -71.8, -119.2, -71.6, -119.2, -68, -128.2, -34.9, -128.2, -4, -116.2, 34.100006, -116.2, 37.5, -100.2, 60.399994, -100.2, 62.899994, -83.2, 78.8, -83.2, 80.5, -40.199997, 102.399994, -40.199997, 104.399994, -4.899994, 107.5, 22.399994, 107.5, 44.600006, 100.7, 47.899994, 100.7, 69.899994, 87.7, 72.399994, 87.7, 107.399994, 48.699997, 109.2, 48.699997, 120.20001, 21.699997, 121.70001, 21.699997, 125.70001, -2.300003, 127.20001, -2.300003, 127.20001, -34.9, 119.5, -65.7, 113.29999, -65.7, 104.8, -14.800003, 104.8, -12.5, 88.8, 12.599998, 88.8, 14.099998, 70.8, 31.100006, 47.800003, 44.600006, 17.800003, 53, 17.800003, 53.600006, 13.5, 54.300003, -11.699997, 54.300003, -32.6, 49.300003, -36.1, 49.300003, -70.2, 30.300003, -71.6, 30.300003, -95.6, 3.300003, -108.8, -28.699997)
+
+[node name="RigidBody2D16" type="RigidBody2D" parent="." unique_id=43904159 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D16" unique_id=1856844462]
+position = Vector2(-1, -344)
+texture = ExtResource("16_dqj8x")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D16" unique_id=41029021]
+position = Vector2(-1, -344)
+polygon = PackedVector2Array(72.7, -113.7, 69.3, -111.9, 69.3, -108, 94.899994, -72.8, 107.3, -32.5, 107.3, -10.5, 91.3, 37.5, 91.3, 38.800003, 61.300003, 72.8, 19.399994, 95, -28.800003, 98.8, -34.800003, 98.8, -77.9, 80.8, -79.2, 80.8, -115.1, 43.800003, -122.7, 43.800003, -110.7, 67.8, -110.7, 70.100006, -87.7, 98.100006, -87.7, 99.7, -61.699997, 117.600006, -61.699997, 119.20001, -32.699997, 130.20001, -32.699997, 132, 23.399994, 135.20001, 31, 135.20001, 59.899994, 125.20001, 63.5, 125.20001, 87.5, 109.2, 90, 109.2, 120, 73.2, 121.899994, 73.2, 139.70001, 15.5, 139.70001, -7.300003, 135.70001, -27, 135.70001, -31.699997, 120.70001, -64.7, 120.70001, -67.2, 95.7, -96.2, 95.7, -97.7)
+
+[node name="RigidBody2D17" type="RigidBody2D" parent="." unique_id=399165636 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D17" unique_id=94739531]
+position = Vector2(206, 184)
+texture = ExtResource("17_jd1vy")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D17" unique_id=578563960]
+position = Vector2(206, 184)
+polygon = PackedVector2Array(54.699997, -82.7, 51.300003, -80.9, 51.300003, -77.1, 69.7, -46.8, 74.3, -29.599998, 74.3, -10.599998, 63.300003, 20.400002, 63.300003, 21.599998, 39.300003, 47.699997, 17.300003, 60.100006, -1.9000015, 65.8, -24.900002, 65.8, -53.9, 54.800003, -55.2, 54.800003, -84.2, 26.800003, -91.4, 26.800003, -80.7, 50.600006, -80.7, 53.100006, -67.7, 69.100006, -67.7, 71.8, -29.699997, 95.7, -29.699997, 97.5, -6.9000015, 103.2, 22, 103.2, 45.899994, 95.2, 49.5, 95.2, 65.399994, 84.2, 68, 84.2, 92, 54.199997, 93.899994, 54.199997, 105.7, 11.400002, 105.7, -1.4000015, 100.7, -23.300003, 100.7, -27.800003, 91.7, -44.8, 91.7, -47.2, 73.7, -68.2, 73.7, -69.7)
+
+[node name="RigidBody2D18" type="RigidBody2D" parent="." unique_id=2082686722 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D18" unique_id=51604291]
+position = Vector2(-210, 196)
+texture = ExtResource("18_0h0w2")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D18" unique_id=461887918]
+position = Vector2(-210, 196)
+polygon = PackedVector2Array(-59.8, -79.3, -88.9, -50.2, -90.8, -50.2, -103.9, -9.199997, -106.2, -9.199997, -99.7, 38.399994, -99.7, 41.899994, -87.7, 61.699997, -87.7, 64.399994, -68.7, 82.3, -68.7, 84.100006, -30.699997, 100, -30.699997, 102.3, 11.599998, 101.2, 17.300003, 101.2, 54.300003, 81.2, 57, 81.2, 77, 56.199997, 78.7, 56.199997, 87.5, 33.100006, 85.5, 32.300003, 83.399994, 29.5, 51.300003, 56.5, 22.5, 65.5, -8.400002, 62.800003, -11.599998, 62.800003, -42.6, 44.800003, -44, 44.800003, -65, 18.800003, -74.9, -18.5, -69.3, -47.7, -69.3, -50.2, -54.7, -76.4, -57.5, -78, -58.5, -78)
+
+[node name="RigidBody2D19" type="RigidBody2D" parent="." unique_id=1981396407 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D19" unique_id=1356067859]
+position = Vector2(323, 46)
+texture = ExtResource("19_3xdcx")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D19" unique_id=1353251506]
+position = Vector2(323, 46)
+polygon = PackedVector2Array(35.699997, -75.2, -3.699997, -82.3, -3.699997, -75.7, 17.599998, -62.3, 18.800003, -62.3, 40.800003, -31.300003, 44.300003, -18.099998, 44.300003, 0.80000305, 38.300003, 20, 38.300003, 22.5, 21.300003, 46.5, 21.300003, 47.699997, -1.699997, 62.800003, -17, 67.3, -36.1, 67.3, -61.7, 60.300003, -61.7, 67.5, -21.7, 87.5, -21.7, 89.2, -12.800003, 90.7, 13, 90.7, 29.199997, 85.7, 32.4, 85.7, 50.399994, 74.7, 52.899994, 74.7, 67.899994, 58.699997, 69.399994, 58.699997, 78.399994, 41.699997, 80.100006, 41.699997, 85.100006, 18.699997, 85.5, -0.5, 84.7, -10.699997, 84.7, -16.300003, 64.7, -51.4, 64.7, -54.2, 35.699997, -73.3)
+
+[node name="RigidBody2D20" type="RigidBody2D" parent="." unique_id=1551025215 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D20" unique_id=1623927361]
+position = Vector2(-320, 42)
+texture = ExtResource("20_gxqpv")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D20" unique_id=1245753440]
+position = Vector2(-320, 42)
+polygon = PackedVector2Array(4.9000015, -79.2, -13.699997, -82.3, -13.699997, -80, -29.900002, -75.7, -33.5, -75.7, -55.4, -60.7, -58.1, -60.7, -72.1, -42.7, -73.8, -42.7, -84.8, -9.699997, -85.5, -9.699997, -85.5, 21.5, -80.7, 35.899994, -80.7, 39.5, -68.7, 57.5, -68.7, 60.100006, -45.7, 78, -45.7, 79.8, -13, 90.7, 13, 90.7, 29.199997, 85.7, 32.5, 85.7, 56.5, 69.7, 60, 69.7, 62.600006, 59.300003, 57, 59.300003, 33.800003, 67, 6.699997, 64.3, 4.4000015, 64.3, -17.599998, 50.300003, -18.800003, 50.300003, -36.9, 25.300003, -44, -0.69999695, -42.3, -24.400002, -42.3, -27.599998, -26.3, -54.6, -26.3, -55.8, 1.4000015, -73.3, 4.4000015, -73.3)
+
+[node name="RigidBody2D21" type="RigidBody2D" parent="." unique_id=1908283701 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D21" unique_id=1530182219]
+position = Vector2(332, -111)
+texture = ExtResource("21_gd171")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D21" unique_id=360904303]
+position = Vector2(332, -111)
+polygon = PackedVector2Array(25.699997, -73.8, -13.700001, -79.7, -13.700001, -77.5, -46.7, -67.4, -46.7, -60.7, -19.400002, -61.8, -13.299999, -61.8, 9.800003, -50.8, 11.099998, -50.8, 27.099998, -32.8, 37.300003, -4.5, 37.300003, 13.300003, 24.300003, 42.300003, 24.300003, 43.5, 6.300003, 58.5, -15.700001, 66.8, -15.700001, 73.5, 12.800003, 71.2, 17.300003, 71.2, 40.4, 58.199997, 43.1, 58.199997, 61.100006, 35.199997, 63, 35.199997, 69.5, 11, 69.5, -14.900002, 68.7, -22.3, 68.7, -26.900002, 53.699997, -50.9, 53.699997, -53.7, 25.699997, -71.8)
+
+[node name="RigidBody2D22" type="RigidBody2D" parent="." unique_id=2136690999 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D22" unique_id=1977642030]
+position = Vector2(-330, -111)
+texture = ExtResource("22_uh6or")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D22" unique_id=440482600]
+position = Vector2(-330, -111)
+polygon = PackedVector2Array(29.699997, -75.9, -2.699997, -79.6, -2.699997, -77.6, -19.599998, -74.2, -23.5, -74.2, -44.5, -60.2, -47.2, -60.2, -64.3, -34.2, -66.1, -34.2, -69.5, -18.099998, -69.5, 8.800003, -68.7, 16.300003, -68.7, 20.900002, -55.7, 42.9, -55.7, 45.5, -35.7, 61.5, -35.7, 63.399994, 0, 74.2, 14, 74.2, 15.199997, 69.399994, -9.700001, 55.800003, -11.099998, 55.800003, -24.2, 42.800003, -37.1, 10.5, -34.3, -14.800003, -34.3, -18, -15.400002, -47, 15.099998, -61.8, 43.4, -60.8, 47.1, -60.8, 48.199997, -65.9, 29.699997, -74.1)
+
+[node name="RigidBody2D23" type="RigidBody2D" parent="." unique_id=1656522597 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D23" unique_id=1677157721]
+position = Vector2(269, -245)
+texture = ExtResource("23_io00x")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D23" unique_id=724269990]
+position = Vector2(269, -245)
+polygon = PackedVector2Array(23.699997, -74.5, -11.700001, -76.9, -11.700001, -75.1, -21.8, -72.7, -25.5, -72.7, -52.7, -54.2, -52.7, -47.3, -24.3, -55.1, -8.599998, -54.3, -4.199997, -54.3, 14.699997, -44.3, 16, -44.3, 33, -24.3, 41.1, -0.5, 40.300003, 18.400002, 40.300003, 22.599998, 28.300003, 43.699997, 28.300003, 45, 9.300003, 61, 9.300003, 68.100006, 35.1, 58.699997, 37.699997, 58.699997, 54.699997, 43.699997, 56.399994, 43.699997, 67.399994, 22.699997, 69.2, 22.699997, 72.2, 5.699997, 72.5, -5.4000015, 68.7, -30, 68.7, -33.6, 50.699997, -57.6, 50.699997, -59.5, 23.699997, -72.6)
+
+[node name="RigidBody2D24" type="RigidBody2D" parent="." unique_id=463354613 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D24" unique_id=110088023]
+texture = ExtResource("24_57q1p")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D24" unique_id=945989640]
+polygon = PackedVector2Array(29.699997, -87, 16.699997, -88, -17.099998, -88, -37.1, -82.2, -40.5, -82.2, -57.5, -70.2, -60.2, -70.2, -85.1, -34.2, -87.1, -34.2, -92.1, -11.199997, -93.8, -11.199997, -92.7, 14.099998, -92.7, 20.699997, -83.7, 40.600006, -83.7, 43.199997, -68, 62, -66.8, 61, -65.5, 61, -62.5, 60, -75, 23.5, -71.3, -4.800003, -71.3, -6.9000015, -46.3, -39.9, -22.300003, -52, -0.30000305, -55.2, 18.300003, -52.8, 21.699997, -52.8, 45.699997, -39.8, 47.100006, -39.8, 62.100006, -23.800003, 71.5, -5.800003, 75.8, 14.699997, 73.3, 31.800003, 73.3, 35.300003, 62.300003, 59.300003, 62.300003, 63.300003, 66.600006, 64.8, 80, 47.199997, 81.8, 47.199997, 91.7, 18.199997, 94.100006, 18.199997, 88.7, -26.400002, 88.7, -29.900002, 77.7, -49, 77.7, -51.3, 61.699997, -67.4, 61.699997, -69, 29.699997, -85)
+
+[node name="RigidBody2D25" type="RigidBody2D" parent="." unique_id=758405798 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D25" unique_id=1299110179]
+position = Vector2(-267, -241)
+texture = ExtResource("25_hullf")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D25" unique_id=838183935]
+position = Vector2(-267, -241)
+polygon = PackedVector2Array(27.699997, -72.4, -14.700001, -77.1, -14.700001, -74.8, -35.9, -67.7, -38.7, -67.7, -54.7, -53.7, -56.4, -53.7, -66.4, -35.7, -68.1, -35.7, -72.1, -16.7, -72.5, 10.5, -64.7, 28.900002, -64.7, 31.699997, -49.7, 48.600006, -49.7, 50.399994, -31.7, 60.399994, -31.7, 62.199997, -8.300003, 66.3, -8.300003, 59.899994, -29.400002, 43.300003, -41.2, 16.900002, -39.3, -8.400002, -39.3, -11.599998, -28.3, -30.599998, -28.3, -32.1, -11.299999, -47.1, 6.699997, -54.3, 6.699997, -55, 8.599998, -55.3, 27.099998, -55.3, 48, -48.3, 51.9, -48.3, 53.300003, -52.8, 27.699997, -70.2)
+
+[node name="RigidBody2D26" type="RigidBody2D" parent="." unique_id=894766985 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D26" unique_id=1198691224]
+position = Vector2(183, -343)
+texture = ExtResource("26_8lpwe")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D26" unique_id=453442861]
+position = Vector2(183, -343)
+polygon = PackedVector2Array(22.699997, -52.9, 10.599998, -54, -5.700001, -54, -5.700001, -53.3, -25, -46.2, -28.2, -46.2, -45.7, -21, -45.7, -17, -42.1, -15.200001, -24.3, -29.5, -13.299999, -32.6, 2.7000008, -32.8, 18.699997, -24.8, 20, -24.8, 33, -9.799999, 38.199997, 5.200001, 38.300003, 18.199997, 31.300003, 35.4, 31.300003, 39.199997, 35.4, 40.800003, 46, 29.199997, 47.9, 29.199997, 55, 4.200001, 57.300003, 4.200001, 53.699997, -17.5, 53.699997, -21.099998, 37.699997, -42, 37.699997, -44, 22.699997, -51.1)
+
+[node name="RigidBody2D27" type="RigidBody2D" parent="." unique_id=2128679111 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D27" unique_id=833265948]
+position = Vector2(-177, -343)
+texture = ExtResource("27_wgx2m")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D27" unique_id=422563819]
+position = Vector2(-177, -343)
+polygon = PackedVector2Array(27.699997, -46.6, -4.9000015, -54, -13.700001, -54, -13.700001, -53.2, -35.2, -44.2, -38.3, -44.2, -53.4, -18.2, -55.7, -18.2, -55.7, 12, -38.2, 38.800003, -37, 38, -35.5, 38, -32.4, 37.4, -38.3, 6, -38.3, 0.79999924, -32.3, -11.200001, -32.3, -12.700001, -17.3, -26.6, 3.9000015, -33.8, 9, -33.8, 26, -27.8, 27.300003, -27.8, 41.300003, -15.799999, 45.4, -15.799999, 47.199997, -19, 39.699997, -32, 39.699997, -34.5, 27.699997, -44.5)
+
+[node name="RigidBody2D28" type="RigidBody2D" parent="." unique_id=1463328793 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D28" unique_id=1663801260]
+position = Vector2(-95, -6)
+texture = ExtResource("28_blffu")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D28" unique_id=1426373092]
+position = Vector2(-95, -6)
+polygon = PackedVector2Array(3.7000008, -83, -2.2999992, -84.5, -14.700001, -84.5, -14.700001, -83.5, -26.2, -65.7, -28, -65.7, -33.7, -42.9, -33.7, -18, -19.7, 22, -19.7, 24.599998, 8.900002, 61.699997, 13.400002, 61.699997, 15.200001, 58.5, -3.7000008, 26.300003, -14.1, -7.699997, -13.299999, -35.4, -13.299999, -38.8, 2.4000015, -67.3, 5.0999985, -67.3, 3.7000008, -78.9)
+
+[node name="RigidBody2D29" type="RigidBody2D" parent="." unique_id=532894699 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D29" unique_id=287491525]
+position = Vector2(93, -4)
+texture = ExtResource("29_j5g0n")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D29" unique_id=834665072]
+position = Vector2(93, -4)
+polygon = PackedVector2Array(16.400002, -86.5, -0.40000153, -86.5, -5.3999996, -82.1, -5.3999996, -71.5, 10.099998, -47.1, 14.599998, -31, 14.599998, -9.199997, 4.5999985, 24, 4.5999985, 26.599998, -13.4, 56.600006, -13.4, 61, -8.700001, 62.5, 18.7, 24.900002, 20.7, 24.900002, 32.699997, -25.099998, 34, -25.099998, 34, -30.599998, 27.400002, -63.5, 27.400002, -67.5, 16.400002, -84.6)
+
+[node name="RigidBody2D30" type="RigidBody2D" parent="." unique_id=662994989 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D30" unique_id=1359477238]
+position = Vector2(-120, -40)
+polygon = PackedVector2Array(12.900002, -115.8, 6.5, -117, -9.900002, -117, -9.900002, -116.4, -16.9, -109.4, -18.6, -109.4, -29.7, -86.4, -31.2, -86.4, -40.2, -44.4, -42.1, -44.4, -39.9, -10.800003, -39.9, -4.5, -30.9, 23.300003, -30.9, 26.899994, -10.900002, 60.800003, -10.900002, 63.300003, 15, 91.399994, 19.5, 91.399994, 21.400002, 88, -5.5999985, 42.600006, -16.9, 0.9000015, -13.1, -43.9, -13.1, -47.199997, 14.400002, -94.6, 18, -94.6, 12.900002, -112.6)
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D30" unique_id=193307181]
+position = Vector2(-120, -40)
+texture = ExtResource("30_6fuat")
+
+[node name="RigidBody2D31" type="RigidBody2D" parent="." unique_id=1056296062 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D31" unique_id=1549685006]
+position = Vector2(121, -39)
+texture = ExtResource("31_77imc")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D31" unique_id=1932630706]
+position = Vector2(121, -39)
+polygon = PackedVector2Array(11.900002, -117, -7.9000015, -117, -7.9000015, -116.4, -16.9, -107.4, -16.9, -97, 7.700001, -59.6, 17.099998, -27.5, 17.099998, 1.5999985, 3.0999985, 46.5, 3.0999985, 48.800003, -20.9, 86, -20.9, 90.3, -16.6, 92, 5, 69.399994, 6.5, 69.399994, 27.5, 31.399994, 29.199997, 31.399994, 40.199997, -19.599998, 42.199997, -19.599998, 39.9, -48.300003, 39.9, -55.6, 29.900002, -84.6, 29.900002, -88, 11.900002, -115)
+
+[node name="RigidBody2D32" type="RigidBody2D" parent="." unique_id=773540624 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D32" unique_id=1346561812]
+position = Vector2(-151, -80)
+texture = ExtResource("32_57sn3")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D32" unique_id=684239157]
+position = Vector2(-151, -80)
+polygon = PackedVector2Array(12.099998, -149.5, 1.2000008, -139.9, -0.40000153, -139.9, -26.4, -95.9, -27.9, -95.9, -39.9, -60.9, -41.4, -60.9, -45.5, -32.9, -47, -32.9, -45.9, -0.3999939, -45.9, 8, -34.9, 44.100006, -34.9, 47.5, -10.900002, 86.399994, -10.900002, 88.899994, 20.099998, 120.899994, 24.5, 120.899994, 26.400002, 117.399994, -8.599998, 60.100006, -19.8, 16.100006, -19.099998, -10.399994, -19.099998, -17.199997, -10.099998, -45, -10.099998, -47.699997, 4.9000015, -73.6, 4.9000015, -75.4, 41, -120.1, 44.6, -120.1, 40.9, -139.5, 40.9, -143.4, 30.900002, -149.4)
+
+[node name="RigidBody2D33" type="RigidBody2D" parent="." unique_id=782767216 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D33" unique_id=1343269918]
+position = Vector2(160, -85)
+texture = ExtResource("33_sdont")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D33" unique_id=222006246]
+position = Vector2(160, -85)
+polygon = PackedVector2Array(-9.099998, -149.5, -30.9, -149.5, -37.5, -144.9, -40.5, -144.9, -42.9, -124.7, -42.9, -120.3, 3.7999992, -60.1, 17.099998, -25.099998, 20.5, 1.8999939, 18.099998, 27.300003, 18.099998, 32.899994, 10.099998, 55.899994, 10.099998, 58.399994, -25.9, 115.5, -25.9, 119.70001, -21.8, 121.5, 0.9000015, 99.899994, 2.2999992, 99.899994, 24.300003, 66.899994, 25.800003, 66.899994, 39.800003, 30.899994, 41.4, 30.899994, 45.4, 4.899994, 47.1, 4.899994, 44.9, -39.699997, 44.9, -46.1, 30.900002, -86.1, 30.900002, -89.5, -1.0999985, -139.6, -1.0999985, -142.2, -9.099998, -148.2)
+
+[node name="RigidBody2D34" type="RigidBody2D" parent="." unique_id=1745698786 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D34" unique_id=2062579643]
+position = Vector2(-57, -432)
+texture = ExtResource("34_dorqy")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D34" unique_id=1731009647]
+polygon = PackedVector2Array(-46, -446, -69, -442, -81, -429, -85, -418, -79, -406, -73, -403, -64, -405, -55, -413, -55, -424, -52, -442)
+
+[node name="RigidBody2D35" type="RigidBody2D" parent="." unique_id=421564235 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D35" unique_id=2020100285]
+position = Vector2(-152, 323)
+texture = ExtResource("35_qvln8")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D35" unique_id=1638136745]
+position = Vector2(-152, 323)
+polygon = PackedVector2Array(16.2, -52.5, 13.599998, -53.9, -42, 48.600006, -42, 66.100006, -37, 78.399994, -37, 81.5, -11, 81.5, -4.299999, 76.5, -0.79999924, 76.5, 22.900002, -51.6, 18, -52.5)
+
+[node name="RigidBody2D36" type="RigidBody2D" parent="." unique_id=1263386921 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D36" unique_id=1107696413]
+position = Vector2(152, 320)
+texture = ExtResource("36_t4fnb")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D36" unique_id=633059525]
+position = Vector2(152, 320)
+polygon = PackedVector2Array(42, 72.5, 42, 46, -16.5, -59.3, -24, -57.4, -24, -52, -1, 64.899994, -1, 70.899994, 12.200001, 81.5, 32.300003, 81.5)
+
+[node name="RigidBody2D37" type="RigidBody2D" parent="." unique_id=2087013621 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D37" unique_id=286596165]
+position = Vector2(357, 173)
+texture = ExtResource("37_j46qu")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D37" unique_id=1633722734]
+position = Vector2(357, 173)
+polygon = PackedVector2Array(61.5, 11.599998, -42.5, -30.4, -42.5, -19.6, 34.5, 41.300003, 34.5, 43, 57.800003, 43, 62.300003, 39, 62.5, 18.900002, 61.5, 15.400002)
+
+[node name="RigidBody2D38" type="RigidBody2D" parent="." unique_id=141206159 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D38" unique_id=1362334494]
+position = Vector2(-353, 171)
+texture = ExtResource("38_22xuw")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D38" unique_id=1580436989]
+position = Vector2(-353, 171)
+polygon = PackedVector2Array(34.6, -26.6, -49.4, 8, -53.7, 8, -62.5, 17.7, -62.5, 42.199997, -58.9, 43, -36.1, 43, 39.699997, -19.1, 36.5, -23)
+
+[node name="RigidBody2D39" type="RigidBody2D" parent="." unique_id=19454770 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D39" unique_id=1178788206]
+position = Vector2(407, -40)
+texture = ExtResource("39_btqq4")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D39" unique_id=241722627]
+position = Vector2(407, -40)
+polygon = PackedVector2Array(70, 3.7999992, 70, -11.6, 60.100006, -15, 27.800003, -15, -41, -5, -46.6, -5, -47.3, 4.200001, 21.900002, 15, 64.899994, 15)
+
+[node name="RigidBody2D40" type="RigidBody2D" parent="." unique_id=1971681331 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D40" unique_id=1361046920]
+position = Vector2(-404, -40)
+texture = ExtResource("40_d47m1")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D40" unique_id=287871990]
+position = Vector2(-404, -40)
+polygon = PackedVector2Array(47.300003, -3.3000002, -32.4, -15, -65, -15, -70, -10, -70, 4.200001, -65, 14.200001, -65, 15, -28.5, 15, 41.6, 6, 46.6, 6)
+
+[node name="RigidBody2D41" type="RigidBody2D" parent="." unique_id=70761586 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D41" unique_id=1668195805]
+position = Vector2(364, -217)
+texture = ExtResource("41_isbrs")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D41" unique_id=593258509]
+position = Vector2(364, -217)
+polygon = PackedVector2Array(52.5, -9.799999, 52.5, -29.1, 44.699997, -33, 29.699997, -33, -32.3, 9.900002, -30.5, 12.5, -30.5, 14, -29, 18.8, 44.4, -5, 49.1, -5)
+
+[node name="RigidBody2D42" type="RigidBody2D" parent="." unique_id=1428760462 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D42" unique_id=1514677562]
+position = Vector2(-366, -221)
+texture = ExtResource("42_qsqx4")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D42" unique_id=903071715]
+position = Vector2(-366, -221)
+polygon = PackedVector2Array(36.300003, 12.799999, -36.7, -33, -49.5, -33, -52.5, -30, -52.5, -7.1000004, 28.699997, 20, 34.300003, 20)
+
+[node name="RigidBody2D43" type="RigidBody2D" parent="." unique_id=981410718 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D43" unique_id=1073088255]
+position = Vector2(264, -342)
+texture = ExtResource("43_gdse1")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D43" unique_id=1513374258]
+position = Vector2(264, -342)
+polygon = PackedVector2Array(34, -32, 15, -32, -20.9, 11.799999, -18, 14.099998, -18, 15, -15.299999, 19.2, 32.5, -12, 34, -12)
+
+[node name="RigidBody2D44" type="RigidBody2D" parent="." unique_id=2056815803 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D44" unique_id=1983097698]
+position = Vector2(-265, -337)
+texture = ExtResource("44_4wjf2")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D44" unique_id=1480024165]
+position = Vector2(-265, -337)
+polygon = PackedVector2Array(-10, -30.7, -14.299999, -32, -33, -32, -33, -30.8, -34, -27.8, -34, -11.4, 15.5, 21, 21.099998, 21, 23.900002, 15.299999, -10, -26.8)
+
+[node name="RigidBody2D45" type="RigidBody2D" parent="." unique_id=1507547572 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D45" unique_id=847987328]
+position = Vector2(-45, -34)
+texture = ExtResource("45_0etmw")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D45" unique_id=269314113]
+position = Vector2(-45, -34)
+polygon = PackedVector2Array(26.5, -31.800003, -10, -97.3, -17.5, -95.4, -17.5, -89.8, 3.7999992, -17.5, 11.5, 62, 11.5, 90, 20.599998, 90.899994, 29.5, 44.199997, 29.5, 3.199997, 26.5, -27)
+
+[node name="RigidBody2D46" type="RigidBody2D" parent="." unique_id=411179358 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D46" unique_id=1330261931]
+position = Vector2(-72, -18)
+texture = ExtResource("46_tydk7")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D46" unique_id=2052353464]
+position = Vector2(-72, -18)
+polygon = PackedVector2Array(25, -26.900002, -10.700001, -84.3, -18, -82.3, -18, -76.6, 2.5999985, -23.5, 17, 59.5, 17, 73, 26, 73.899994, 30.099998, 53.5, 31, 53.5, 31, 38.399994, 25, -22)
+
+[node name="RigidBody2D47" type="RigidBody2D" parent="." unique_id=137185233 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D47" unique_id=1929536645]
+position = Vector2(-18, -56)
+texture = ExtResource("47_lr55s")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D47" unique_id=1469236346]
+position = Vector2(-18, -56)
+polygon = PackedVector2Array(31, -45.800003, -11.5, -123.3, -19, -121.4, -19, -115.6, -0.5, -65.5, 7.700001, -15.5, 6, 106.5, 6, 113.899994, 14.700001, 115, 34, 39.5, 34, -11.600006, 31, -41)
+
+[node name="RigidBody2D48" type="RigidBody2D" parent="." unique_id=851727448 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D48" unique_id=2018936284]
+position = Vector2(18, -61)
+texture = ExtResource("48_3ulrf")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D48" unique_id=143374012]
+position = Vector2(18, -61)
+polygon = PackedVector2Array(26.5, -47.800003, -8.1, -123.4, -17.5, -121.3, -17.5, -115, 4, 7.899994, -7.5, 113.20001, -7.5, 119.29999, 1.8999996, 121.399994, 20.3, 82.5, 22.400002, 82.5, 29.5, 47.699997, 29.5, -16.800003, 26.5, -43.199997)
+
+[node name="RigidBody2D49" type="RigidBody2D" parent="." unique_id=2123137071 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D49" unique_id=1230234009]
+position = Vector2(51, -35)
+texture = ExtResource("49_aybci")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D49" unique_id=1882753593]
+position = Vector2(51, -35)
+polygon = PackedVector2Array(29, -63.1, 19.5, -100.1, 9, -98.8, 9, -92.5, 4, -8.699997, 4, -2, -17.8, 93.2, -13, 94.2, -7.799999, 97.5, 12.5, 62.5, 14.599998, 62.5, 28.599998, 10.5)
+
+[node name="RigidBody2D50" type="RigidBody2D" parent="." unique_id=626268517 node_paths=PackedStringArray("sprite")]
+freeze = true
+freeze_mode = 1
+script = ExtResource("1_ybp1p")
+sprite = NodePath("Sprite2D")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D50" unique_id=1718755952]
+position = Vector2(3, -54)
+texture = ExtResource("50_0am61")
+
+[node name="CollisionPolygon2D10" type="CollisionPolygon2D" parent="RigidBody2D50" unique_id=427339135]
+position = Vector2(3, -54)
+polygon = PackedVector2Array(-178.3, -237.7, -180.7, -237.7, -180.7, -232.7, -188.7, -232.7, -188.7, -231.7, -192.7, -231.7, -192.7, -230.7, -195.7, -230.7, -195.7, -229.7, -197.4, -229.7, -198.4, -227.7, -200.4, -227.7, -201.4, -225.7, -203.3, -225.7, -206.4, -221.7, -207.7, -221.7, -207.7, -219.7, -208.4, -219.7, -209.4, -217.7, -210.5, -217.7, -212.5, -211.7, -213.6, -211.7, -214.6, -204.7, -215.7, -204.7, -215.7, -193.3, -214.7, -193.3, -214.7, -188.3, -213.7, -188.3, -213.7, -186.7, -216.7, -186.7, -216.7, -185.7, -220.7, -185.7, -220.7, -184.7, -223.7, -184.7, -223.7, -183.7, -226.7, -183.7, -226.7, -182.7, -228.7, -182.7, -228.7, -181.7, -229.7, -181.7, -229.7, -180.7, -231.4, -180.7, -233.4, -177.7, -235.4, -177.7, -240.4, -170.7, -241.7, -170.7, -241.7, -168.7, -242.5, -168.7, -244.5, -162.7, -245.7, -162.7, -245.7, -158.7, -246.7, -158.7, -246.7, -143.3, -245.7, -143.3, -245.7, -139.3, -244.7, -139.3, -244.7, -135.3, -243.7, -135.3, -243.7, -133.3, -242.7, -133.3, -242.7, -131.3, -241.7, -131.3, -241.7, -130.7, -243.7, -130.7, -243.7, -129.7, -245.7, -129.7, -245.7, -128.7, -247.4, -128.7, -249.4, -125.7, -251.3, -125.7, -261.3, -114.7, -262.7, -114.7, -262.7, -112.7, -263.7, -112.7, -263.7, -111.7, -264.7, -111.7, -264.7, -109.7, -265.7, -109.7, -265.7, -107.7, -266.5, -107.7, -268.5, -101.7, -269.6, -101.7, -270.6, -94.7, -271.7, -94.7, -271.7, -89.7, -272.7, -89.7, -272.7, -71.3, -271.7, -71.3, -271.7, -67.3, -270.7, -67.3, -270.7, -64.3, -269.7, -64.3, -269.7, -61.300003, -268.7, -61.300003, -268.7, -59.300003, -267.7, -59.300003, -267.7, -57.600006, -265.7, -56.600006, -265.7, -54.699997, -266.4, -54.699997, -267.4, -52.699997, -268.7, -52.699997, -268.7, -50.699997, -269.3, -50.699997, -272.4, -46.699997, -273.5, -46.699997, -274.5, -43.699997, -275.7, -43.699997, -275.7, -41.699997, -276.5, -41.699997, -278.5, -35.699997, -279.6, -35.699997, -281.6, -26.699997, -282.7, -26.699997, -282.7, -22.699997, -283.7, -22.699997, -283.7, -15.699997, -284.7, -15.699997, -284.7, 0.7000122, -283.7, 0.7000122, -283.7, 7.700012, -282.7, 7.700012, -282.7, 12.700012, -281.7, 12.700012, -281.7, 15.700012, -280.7, 15.700012, -280.7, 17.700012, -279.7, 17.700012, -279.7, 20.700012, -278.7, 20.700012, -278.7, 22.700012, -277.7, 22.700012, -277.7, 23.700012, -276.7, 23.700012, -276.7, 25.399994, -274.7, 26.399994, -274.7, 28.399994, -271.7, 30.399994, -271.7, 32.700012, -270.4, 32.700012, -267.3, 36.700012, -265.4, 36.700012, -262.3, 40.700012, -260.7, 40.700012, -260.7, 41.700012, -258.7, 41.700012, -258.7, 44.299988, -259.7, 44.299988, -259.7, 47.299988, -260.6, 47.299988, -261.6, 55.299988, -262.7, 55.299988, -262.7, 60.299988, -263.7, 60.299988, -263.7, 86.70001, -262.7, 86.70001, -262.7, 91.70001, -261.7, 91.70001, -261.7, 95.70001, -260.7, 95.70001, -260.7, 98.70001, -259.7, 98.70001, -259.7, 101.70001, -258.7, 101.70001, -258.7, 104.70001, -257.7, 104.70001, -257.7, 106.70001, -256.7, 106.70001, -256.7, 108.70001, -255.7, 108.70001, -255.7, 110.70001, -254.7, 110.70001, -254.7, 112.70001, -253.7, 112.70001, -253.7, 114.70001, -252.7, 114.70001, -252.7, 116.70001, -251.7, 116.70001, -251.7, 117.70001, -250.7, 117.70001, -250.7, 119.399994, -247.7, 121.399994, -247.7, 123.29999, -239.7, 130.29999, -239.7, 131.70001, -237.7, 131.70001, -237.7, 132.70001, -236.7, 132.70001, -236.7, 133.70001, -234.7, 133.70001, -234.7, 134.70001, -233.7, 134.70001, -233.7, 135.70001, -231.7, 135.70001, -231.7, 136.70001, -229.7, 136.70001, -229.7, 137.70001, -227.7, 137.70001, -227.7, 138.70001, -226.7, 138.70001, -226.7, 142.70001, -225.7, 142.70001, -225.7, 147.70001, -224.7, 147.70001, -224.7, 150.70001, -223.7, 150.70001, -223.7, 153.70001, -222.7, 153.70001, -222.7, 156.70001, -221.7, 156.70001, -221.7, 158.70001, -220.7, 158.70001, -220.7, 160.70001, -219.7, 160.70001, -219.7, 162.70001, -218.7, 162.70001, -218.7, 164.70001, -217.7, 164.70001, -217.7, 165.70001, -216.7, 165.70001, -216.7, 167.4, -214.7, 168.4, -214.7, 170.4, -211.7, 172.4, -211.7, 174.29999, -195.7, 189.29999, -195.7, 190.70001, -193.7, 190.70001, -193.7, 191.4, -190.7, 193.4, -190.7, 194.70001, -188.7, 194.70001, -188.7, 195.70001, -187.7, 195.70001, -187.7, 196.70001, -185.7, 196.70001, -185.7, 197.4, -183.7, 198.4, -183.7, 199.70001, -181.7, 199.70001, -181.7, 200.70001, -180.7, 200.70001, -180.7, 201.70001, -178.7, 201.70001, -178.7, 202.70001, -176.7, 202.70001, -176.7, 203.70001, -175.7, 203.70001, -175.7, 204.70001, -173.7, 204.70001, -173.7, 205.5, -170.7, 206.5, -170.7, 207.70001, -168.7, 207.70001, -168.7, 208.70001, -166.7, 208.70001, -166.7, 209.5, -163.7, 210.5, -163.7, 211.70001, -161.7, 211.70001, -161.7, 212.5, -157.7, 213.5, -157.7, 214.70001, -154.7, 214.70001, -154.7, 215.5, -150.7, 216.5, -150.7, 217.70001, -148.7, 217.70001, -148.7, 218.70001, -145.7, 218.70001, -145.7, 219.70001, -143.7, 219.70001, -143.7, 220.70001, -140.7, 220.70001, -140.7, 221.6, -131.7, 223.5, -131.7, 224.70001, -127.7, 224.70001, -127.7, 225.70001, -123.7, 225.70001, -123.7, 226.70001, -118.7, 226.70001, -118.7, 227.70001, -112.7, 227.70001, -112.7, 228.70001, -106.7, 228.70001, -106.7, 229.70001, -105.7, 229.70001, -105.7, 230.70001, -103.7, 230.70001, -103.7, 231.29999, -98.7, 235.20001, -98.7, 236.70001, -96.7, 236.70001, -96.7, 237.70001, -95.7, 237.70001, -95.7, 238.70001, -93.7, 238.70001, -93.7, 239.70001, -92.7, 239.70001, -92.7, 240.5, -89.7, 241.5, -89.7, 242.70001, -87.7, 242.70001, -87.7, 243.70001, -85.7, 243.70001, -85.7, 244.5, -82.7, 245.5, -82.7, 246.70001, -79.7, 246.70001, -79.7, 247.5, -73.7, 249.5, -73.7, 250.70001, -70.7, 250.70001, -70.7, 251.6, -61.699997, 253.5, -61.699997, 254.59998, -49.699997, 256.59998, -49.699997, 257.59998, -36.699997, 258.59998, -36.699997, 259.7, -25.700012, 259.7, 5.700012, 260, 14.700012, 259.7, 14.700012, 258.7, 20.700012, 258.7, 20.700012, 257.7, 25.700012, 257.7, 25.700012, 256.7, 29.700012, 256.7, 29.700012, 255.70001, 32.700012, 255.70001, 32.700012, 254.70001, 35.700012, 254.70001, 35.700012, 253.70001, 38.700012, 253.70001, 38.700012, 252.70001, 41.700012, 252.70001, 41.700012, 251.70001, 43.700012, 251.70001, 43.700012, 250.70001, 45.700012, 250.70001, 45.700012, 249.70001, 47.700012, 249.70001, 47.700012, 248.70001, 49.700012, 248.70001, 49.700012, 247.70001, 51.700012, 247.70001, 51.700012, 246.70001, 53.700012, 246.70001, 53.700012, 245.70001, 54.700012, 245.70001, 54.700012, 244.70001, 56.700012, 244.70001, 56.700012, 243.70001, 57.700012, 243.70001, 57.700012, 242.70001, 59.700012, 242.70001, 59.700012, 241.4, 62.700012, 239.4, 62.700012, 238.70001, 65.29999, 238.70001, 65.29999, 239.70001, 71.29999, 239.70001, 71.29999, 240.70001, 95.70001, 240.70001, 95.70001, 239.70001, 102.70001, 239.70001, 102.70001, 238.70001, 107.70001, 238.70001, 107.70001, 237.70001, 111.70001, 237.70001, 111.70001, 236.70001, 115.70001, 236.70001, 115.70001, 235.70001, 118.70001, 235.70001, 118.70001, 234.70001, 121.70001, 234.70001, 121.70001, 233.70001, 124.70001, 233.70001, 124.70001, 232.70001, 126.70001, 232.70001, 126.70001, 231.70001, 129.70001, 231.70001, 129.70001, 230.70001, 131.70001, 230.70001, 131.70001, 229.70001, 133.70001, 229.70001, 133.70001, 228.70001, 135.70001, 228.70001, 135.70001, 227.70001, 137.70001, 227.70001, 137.70001, 226.70001, 139.70001, 226.70001, 139.70001, 225.70001, 141.70001, 225.70001, 141.70001, 224.70001, 143.70001, 224.70001, 143.70001, 223.70001, 145.70001, 223.70001, 145.70001, 222.70001, 146.70001, 222.70001, 146.70001, 221.70001, 148.70001, 221.70001, 148.70001, 220.70001, 149.70001, 220.70001, 149.70001, 219.70001, 151.4, 219.70001, 152.4, 217.70001, 154.29999, 217.70001, 157.4, 213.70001, 159.29999, 213.70001, 170.29999, 201.70001, 171.70001, 201.70001, 171.70001, 199.70001, 172.4, 199.70001, 173.4, 197.70001, 174.70001, 197.70001, 174.70001, 195.70001, 175.70001, 195.70001, 175.70001, 194.70001, 176.5, 194.70001, 177.5, 191.70001, 178.70001, 191.70001, 178.70001, 189.70001, 179.5, 189.70001, 180.5, 186.70001, 181.70001, 186.70001, 181.70001, 184.70001, 182.70001, 184.70001, 182.70001, 182.70001, 183.70001, 182.70001, 183.70001, 179.70001, 184.70001, 179.70001, 184.70001, 177.70001, 185.70001, 177.70001, 185.70001, 174.70001, 188.70001, 174.70001, 188.70001, 173.70001, 191.70001, 173.70001, 191.70001, 172.70001, 194.70001, 172.70001, 194.70001, 171.70001, 197.70001, 171.70001, 197.70001, 170.70001, 199.70001, 170.70001, 199.70001, 169.70001, 201.70001, 169.70001, 201.70001, 168.70001, 203.70001, 168.70001, 203.70001, 167.70001, 204.70001, 167.70001, 204.70001, 166.70001, 206.70001, 166.70001, 206.70001, 165.70001, 208.4, 165.70001, 209.4, 163.70001, 211.70001, 163.70001, 211.70001, 162.70001, 212.4, 162.70001, 213.4, 160.70001, 215.29999, 160.70001, 231.29999, 143.70001, 232.70001, 143.70001, 232.70001, 141.70001, 233.40002, 141.70001, 235.40002, 138.70001, 236.70001, 138.70001, 236.70001, 136.70001, 237.70001, 136.70001, 237.70001, 135.70001, 238.70001, 135.70001, 238.70001, 133.70001, 239.70001, 133.70001, 239.70001, 132.70001, 240.70001, 132.70001, 240.70001, 130.70001, 241.70001, 130.70001, 241.70001, 129.70001, 242.70001, 129.70001, 242.70001, 127.70001, 243.70001, 127.70001, 243.70001, 126.70001, 244.70001, 126.70001, 244.70001, 124.70001, 245.5, 124.70001, 246.5, 121.70001, 247.70001, 121.70001, 247.70001, 119.70001, 248.5, 119.70001, 249.59998, 115.70001, 250.70001, 115.70001, 250.70001, 112.70001, 251.5, 112.70001, 252.59998, 108.70001, 253.59998, 108.70001, 255.59998, 99.70001, 256.7, 99.70001, 256.7, 94.70001, 257.7, 94.70001, 257.7, 89.70001, 258.7, 89.70001, 258.7, 64.29999, 257.7, 64.29999, 257.7, 59.299988, 256.7, 59.299988, 256.7, 55.299988, 255.70001, 55.299988, 255.70001, 53.700012, 256.7, 53.700012, 256.7, 52.700012, 258.3, 52.700012, 261.40002, 48.700012, 263.3, 48.700012, 271.3, 38.700012, 272.5, 38.700012, 273.5, 35.700012, 274.7, 35.700012, 274.7, 33.700012, 275.5, 33.700012, 276.5, 30.700012, 277.7, 30.700012, 277.7, 28.700012, 278.59998, 28.700012, 279.59998, 23.700012, 280.59998, 23.700012, 281.59998, 16.700012, 282.7, 16.700012, 282.7, 11.700012, 283.7, 11.700012, 283.7, -12.699997, 282.7, -12.699997, 282.7, -17.699997, 281.7, -17.699997, 281.7, -21.699997, 280.7, -21.699997, 280.7, -24.699997, 279.7, -24.699997, 279.7, -27.699997, 278.7, -27.699997, 278.7, -29.699997, 277.7, -29.699997, 277.7, -32.699997, 276.7, -32.699997, 276.7, -34.699997, 275.7, -34.699997, 275.7, -36.699997, 274.7, -36.699997, 274.7, -37.699997, 273.7, -37.699997, 273.7, -39.699997, 272.7, -39.699997, 272.7, -41.699997, 271.7, -41.699997, 271.7, -42.699997, 270.7, -42.699997, 270.7, -44.699997, 269.40002, -44.699997, 268.40002, -46.699997, 267.7, -46.699997, 267.7, -48.699997, 266.7, -48.699997, 266.7, -49.300003, 267.7, -49.300003, 267.7, -51.300003, 268.5, -51.300003, 270.5, -57.300003, 271.59998, -57.300003, 273.59998, -66.3, 274.7, -66.3, 274.7, -74.3, 275.7, -74.3, 275.7, -82.7, 274.7, -82.7, 274.7, -88.7, 273.7, -88.7, 273.7, -91.7, 272.7, -91.7, 272.7, -94.7, 271.7, -94.7, 271.7, -95.7, 270.7, -95.7, 270.7, -97.7, 269.7, -97.7, 269.7, -99.3, 258.7, -109.399994, 258.7, -110.7, 256.7, -110.7, 256.7, -111.7, 255.70001, -111.7, 255.70001, -112.7, 253.70001, -112.7, 253.70001, -113.7, 252.70001, -113.7, 252.70001, -114.7, 250.70001, -114.7, 250.70001, -115.7, 248.70001, -115.7, 248.70001, -116.7, 246.70001, -116.7, 246.70001, -117.7, 244.90002, -117.7, 245.59998, -120.3, 246.70001, -120.3, 246.70001, -124.3, 247.70001, -124.3, 247.70001, -129.3, 248.70001, -129.3, 248.70001, -140.7, 247.70001, -140.7, 247.70001, -146.7, 246.70001, -146.7, 246.70001, -149.7, 245.70001, -149.7, 245.70001, -152.7, 244.70001, -152.7, 244.70001, -155.7, 243.70001, -155.7, 243.70001, -157.4, 241.70001, -158.4, 241.70001, -160.4, 239.70001, -161.4, 239.70001, -163.3, 233.70001, -168.3, 233.70001, -169.7, 231.70001, -169.7, 231.70001, -170.4, 229.70001, -171.4, 229.70001, -172.7, 227.70001, -172.7, 227.70001, -173.7, 225.70001, -173.7, 225.70001, -174.7, 223.70001, -174.7, 223.70001, -175.7, 221.70001, -175.7, 221.70001, -176.7, 220.70001, -176.7, 220.70001, -182.7, 219.70001, -182.7, 219.70001, -186.7, 218.70001, -186.7, 218.70001, -188.7, 217.70001, -188.7, 217.70001, -190.7, 216.70001, -190.7, 216.70001, -192.4, 214.70001, -193.4, 214.70001, -195.3, 202.70001, -206.4, 202.70001, -207.7, 200.70001, -207.7, 200.70001, -208.4, 198.70001, -209.4, 198.70001, -210.5, 195.70001, -211.6, 195.70001, -212.5, 191.70001, -213.6, 191.70001, -214.7, 188.70001, -214.7, 188.70001, -215.7, 185.70001, -215.7, 185.70001, -216.7, 180.70001, -216.7, 180.70001, -218.7, 178.29999, -218.7, 178.29999, -216.7, 174.29999, -216.7, 174.29999, -215.7, 172.29999, -215.7, 172.29999, -214.7, 170.70001, -214.7, 167.6, -210.7, 166.29999, -210.7, 166.29999, -208.7, 165.29999, -208.7, 165.29999, -206.7, 164.29999, -206.7, 164.29999, -200.3, 165.29999, -200.3, 165.29999, -197.6, 167.29999, -196.6, 167.29999, -195.3, 173.70001, -195.3, 173.70001, -196.3, 175.4, -196.3, 176.4, -198.3, 177.5, -198.3, 179.5, -204.3, 180.70001, -204.3, 180.70001, -208.3, 181.70001, -208.3, 181.70001, -213.3, 186.29999, -213.3, 186.29999, -212.3, 188.29999, -212.3, 188.29999, -211.3, 190.29999, -211.3, 190.29999, -210.3, 192.29999, -210.3, 192.29999, -209.3, 194.29999, -209.3, 194.29999, -208.3, 195.29999, -208.3, 195.29999, -207.3, 197.6, -207.3, 198.6, -205.3, 200.70001, -205.3, 210.70001, -194.3, 211.5, -194.3, 212.5, -191.3, 213.29999, -191.3, 213.29999, -189.3, 214.29999, -189.3, 214.29999, -187.3, 215.29999, -187.3, 215.29999, -185.3, 216.29999, -185.3, 216.29999, -182.3, 217.29999, -182.3, 217.29999, -177.7, 215.70001, -177.7, 215.70001, -178.7, 209.70001, -178.7, 209.70001, -179.7, 203.29999, -179.7, 203.29999, -178.7, 198.29999, -178.7, 198.29999, -177.7, 196.29999, -177.7, 196.29999, -176.7, 194.5, -176.7, 193.5, -173.7, 192.29999, -173.7, 192.29999, -170.7, 191.29999, -170.7, 191.29999, -167.3, 192.29999, -167.3, 192.29999, -163.3, 193.29999, -163.3, 193.29999, -161.7, 197.29999, -158.7, 197.29999, -157.3, 199.29999, -157.3, 199.29999, -156.3, 207.70001, -156.3, 207.70001, -157.3, 209.70001, -157.3, 209.70001, -158.3, 211.4, -158.3, 212.4, -160.3, 214.4, -160.3, 216.4, -164.3, 217.70001, -164.3, 217.70001, -166.3, 218.5, -166.3, 220.5, -172.3, 221.29999, -172.3, 221.29999, -171.3, 223.29999, -171.3, 223.29999, -170.3, 225.6, -170.3, 226.59998, -168.3, 228.29999, -168.3, 228.29999, -167.3, 229.59998, -167.3, 230.59998, -165.3, 232.59998, -165.3, 233.59998, -163.3, 234.29999, -163.3, 234.29999, -161.3, 235.59998, -161.3, 236.59998, -159.3, 237.5, -159.3, 238.5, -156.3, 239.40002, -156.3, 240.5, -152.3, 241.40002, -152.3, 242.40002, -146.3, 243.29999, -146.3, 243.29999, -141.3, 244.29999, -141.3, 244.29999, -129.7, 243.29999, -129.7, 243.29999, -124.7, 242.29999, -124.7, 242.29999, -121.7, 241.29999, -121.7, 241.29999, -119.899994, 237.70001, -120.600006, 237.70001, -121.7, 233.70001, -121.7, 233.70001, -122.7, 228.70001, -122.7, 228.70001, -123.7, 217.29999, -123.7, 217.29999, -122.7, 214.29999, -122.7, 214.29999, -121.7, 212.6, -121.7, 210.6, -118.7, 209.29999, -118.7, 209.29999, -115.7, 208.29999, -115.7, 208.29999, -109.3, 209.29999, -109.3, 209.29999, -106.3, 210.29999, -106.3, 210.29999, -104.3, 211.29999, -104.3, 211.29999, -102.3, 212.6, -102.3, 214.6, -99.3, 216.29999, -99.3, 216.29999, -98.3, 226.70001, -98.3, 226.70001, -99.3, 228.70001, -99.3, 228.70001, -100.3, 230.70001, -100.3, 230.70001, -101.3, 232.40002, -101.3, 234.40002, -104.3, 236.40002, -104.3, 240.40002, -110.3, 241.5, -110.3, 242.5, -113.3, 244.29999, -113.3, 244.29999, -112.3, 246.29999, -112.3, 246.29999, -111.3, 247.29999, -111.3, 247.29999, -110.3, 249.29999, -110.3, 249.29999, -109.3, 251.59998, -109.3, 253.59998, -106.3, 255.70001, -106.3, 263.7, -97.3, 264.3, -97.3, 264.3, -95.3, 265.3, -95.3, 265.3, -94.3, 266.40002, -94.3, 267.5, -90.3, 268.40002, -90.3, 269.40002, -83.3, 270.3, -83.3, 270.3, -74.7, 269.3, -74.7, 269.3, -68.7, 268.3, -68.7, 268.3, -64.7, 267.3, -64.7, 267.3, -61.699997, 266.3, -61.699997, 266.3, -59.699997, 265.3, -59.699997, 265.3, -57.699997, 264.3, -57.699997, 264.3, -55.699997, 263.3, -55.699997, 263.3, -53.699997, 262.3, -53.699997, 257.7, -57.300003, 257.7, -58.699997, 255.70001, -58.699997, 255.70001, -59.699997, 254.70001, -59.699997, 254.70001, -60.5, 251.70001, -61.600006, 251.70001, -62.699997, 249.70001, -62.699997, 249.70001, -63.699997, 247.70001, -63.699997, 247.70001, -64.7, 245.70001, -64.7, 245.70001, -65.7, 243.70001, -65.7, 243.70001, -66.7, 240.70001, -66.7, 240.70001, -67.7, 236.70001, -67.7, 236.70001, -68.7, 228.29999, -68.7, 228.29999, -67.7, 224.29999, -67.7, 224.29999, -66.7, 222.70001, -66.7, 218.70001, -61.699997, 217.5, -61.699997, 216.4, -57.699997, 215.29999, -57.699997, 215.29999, -50.699997, 214.29999, -50.699997, 214.29999, -46.300003, 215.29999, -46.300003, 215.29999, -39.300003, 216.29999, -39.300003, 216.29999, -36.300003, 217.29999, -36.300003, 217.29999, -35.300003, 218.29999, -35.300003, 218.29999, -33.600006, 221.29999, -31.600006, 221.29999, -30.5, 225.29999, -29.5, 225.29999, -28.300003, 228.29999, -28.300003, 228.29999, -27.300003, 237.70001, -27.300003, 237.70001, -28.300003, 241.70001, -28.300003, 241.70001, -29.300003, 244.70001, -29.300003, 244.70001, -30.300003, 246.70001, -30.300003, 246.70001, -31.300003, 248.70001, -31.300003, 248.70001, -32.300003, 250.40002, -32.300003, 251.40002, -34.300003, 253.70001, -34.300003, 253.70001, -35.699997, 261.7, -42.699997, 261.7, -43.300003, 262.59998, -43.300003, 263.59998, -41.300003, 264.3, -41.300003, 264.3, -39.300003, 265.3, -39.300003, 265.3, -38.300003, 266.5, -38.300003, 267.5, -35.300003, 268.3, -35.300003, 268.3, -33.300003, 269.5, -33.300003, 271.5, -27.300003, 272.40002, -27.300003, 274.40002, -18.300003, 275.3, -18.300003, 275.3, -13.300003, 276.3, -13.300003, 276.3, -6.300003, 277.3, -6.300003, 277.3, 4.299988, 276.3, 4.299988, 276.3, 11.299988, 275.3, 11.299988, 275.3, 16.299988, 274.3, 16.299988, 274.3, 19.299988, 273.3, 19.299988, 273.3, 21.299988, 272.3, 21.299988, 272.3, 24.299988, 271.3, 24.299988, 271.3, 26.299988, 270.3, 26.299988, 270.3, 27.299988, 269.3, 27.299988, 269.3, 29.299988, 268.3, 29.299988, 268.3, 31.299988, 267.3, 31.299988, 267.3, 32.299988, 266.3, 32.299988, 266.3, 34.299988, 265.7, 34.299988, 255.70001, 45.299988, 253.59998, 45.299988, 252.70001, 47.100006, 252.70001, 45.299988, 251.70001, 45.299988, 251.70001, 43.299988, 250.70001, 43.299988, 250.70001, 42.299988, 249.70001, 42.299988, 249.70001, 40.299988, 248.70001, 40.299988, 248.70001, 38.600006, 246.70001, 37.600006, 246.70001, 35.700012, 236.70001, 26.600006, 236.70001, 25.299988, 234.70001, 25.299988, 234.70001, 24.299988, 233.70001, 24.299988, 233.70001, 23.5, 230.70001, 22.399994, 230.70001, 21.299988, 228.70001, 21.299988, 228.70001, 20.299988, 225.70001, 20.299988, 225.70001, 19.299988, 222.70001, 19.299988, 222.70001, 18.299988, 210.29999, 18.299988, 210.29999, 19.299988, 207.29999, 19.299988, 207.29999, 20.299988, 205.29999, 20.299988, 205.29999, 21.299988, 203.70001, 21.299988, 199.70001, 26.299988, 198.29999, 26.299988, 198.29999, 28.299988, 197.29999, 28.299988, 197.29999, 29.299988, 196.29999, 29.299988, 196.29999, 31.299988, 195.4, 31.299988, 194.4, 37.299988, 193.29999, 37.299988, 193.29999, 52.700012, 194.29999, 52.700012, 194.29999, 54.700012, 195.29999, 54.700012, 195.29999, 56.299988, 200.29999, 60.200012, 200.29999, 61.5, 203.29999, 62.5, 203.29999, 63.700012, 206.29999, 63.700012, 206.29999, 64.70001, 209.29999, 64.70001, 209.29999, 65.70001, 228.70001, 65.70001, 228.70001, 64.70001, 233.70001, 64.70001, 233.70001, 63.700012, 236.70001, 63.700012, 236.70001, 62.700012, 239.70001, 62.700012, 239.70001, 61.700012, 242.70001, 61.700012, 242.70001, 60.700012, 244.70001, 60.700012, 244.70001, 59.700012, 246.70001, 59.700012, 246.70001, 58.700012, 248.29999, 58.700012, 248.29999, 62.700012, 249.29999, 62.700012, 249.29999, 68.70001, 250.29999, 68.70001, 250.29999, 85.29999, 249.29999, 85.29999, 249.29999, 90.29999, 248.29999, 90.29999, 248.29999, 95.29999, 247.29999, 95.29999, 247.29999, 98.29999, 246.29999, 98.29999, 246.29999, 101.29999, 245.29999, 101.29999, 245.29999, 104.29999, 244.29999, 104.29999, 244.29999, 106.29999, 243.29999, 106.29999, 243.29999, 108.29999, 242.29999, 108.29999, 242.29999, 111.29999, 241.29999, 111.29999, 241.29999, 113.29999, 240.29999, 113.29999, 240.29999, 114.29999, 239.29999, 114.29999, 239.29999, 116.29999, 238.29999, 116.29999, 238.29999, 118.29999, 237.29999, 118.29999, 237.29999, 120.600006, 235.29999, 121.600006, 235.29999, 123.600006, 233.29999, 124.600006, 233.29999, 126.600006, 231.29999, 127.600006, 231.29999, 129.6, 229.29999, 130.6, 229.29999, 132.29999, 228.29999, 132.29999, 228.29999, 133.6, 225.29999, 135.6, 225.29999, 137.6, 211.29999, 150.70001, 211.29999, 151.29999, 209.29999, 151.29999, 209.29999, 152.6, 206.29999, 154.6, 206.29999, 155.29999, 204.29999, 155.29999, 204.29999, 156.29999, 203.29999, 156.29999, 203.29999, 157.29999, 201.29999, 157.29999, 201.29999, 158.29999, 199.29999, 158.29999, 199.29999, 159.4, 196.29999, 160.5, 196.29999, 161.29999, 193.29999, 161.29999, 193.29999, 162.29999, 191.29999, 162.29999, 191.29999, 163.29999, 189.70001, 163.29999, 189.70001, 156.70001, 190.70001, 156.70001, 190.70001, 137.29999, 189.70001, 137.29999, 189.70001, 131.29999, 188.70001, 131.29999, 188.70001, 127.29999, 187.70001, 127.29999, 187.70001, 124.29999, 186.70001, 124.29999, 186.70001, 121.29999, 185.70001, 121.29999, 185.70001, 118.29999, 184.70001, 118.29999, 184.70001, 116.29999, 183.70001, 116.29999, 183.70001, 114.29999, 182.70001, 114.29999, 182.70001, 112.600006, 180.70001, 111.600006, 180.70001, 109.600006, 177.70001, 107.600006, 177.70001, 105.70001, 173.70001, 102.600006, 173.70001, 101.29999, 171.70001, 101.29999, 171.70001, 100.600006, 169.70001, 99.600006, 169.70001, 98.5, 165.70001, 97.399994, 165.70001, 96.29999, 162.70001, 96.29999, 162.70001, 95.29999, 158.70001, 95.29999, 158.70001, 94.29999, 149.29999, 94.29999, 149.29999, 95.29999, 144.29999, 95.29999, 144.29999, 96.29999, 142.29999, 96.29999, 142.29999, 97.29999, 139.29999, 97.29999, 139.29999, 98.29999, 137.29999, 98.29999, 137.29999, 99.29999, 136.29999, 99.29999, 136.29999, 100.29999, 134.6, 100.29999, 132.6, 103.29999, 130.70001, 103.29999, 126.70001, 108.29999, 125.29999, 108.29999, 125.29999, 110.29999, 124.600006, 110.29999, 123.600006, 112.29999, 122.5, 112.29999, 121.399994, 116.29999, 120.29999, 116.29999, 120.29999, 119.29999, 119.29999, 119.29999, 119.29999, 122.29999, 118.29999, 122.29999, 118.29999, 139.70001, 119.29999, 139.70001, 119.29999, 142.70001, 120.29999, 142.70001, 120.29999, 145.70001, 121.29999, 145.70001, 121.29999, 147.70001, 122.29999, 147.70001, 122.29999, 149.70001, 123.29999, 149.70001, 123.29999, 151.70001, 124.29999, 151.70001, 124.29999, 152.70001, 125.29999, 152.70001, 125.29999, 154.4, 128.29999, 156.4, 128.29999, 158.29999, 132.29999, 161.29999, 132.29999, 162.70001, 134.29999, 162.70001, 134.29999, 163.4, 137.29999, 165.4, 137.29999, 166.5, 140.29999, 167.5, 140.29999, 168.70001, 142.29999, 168.70001, 142.29999, 169.5, 148.29999, 171.5, 148.29999, 172.6, 154.29999, 173.6, 154.29999, 174.70001, 158.29999, 174.70001, 158.29999, 175.70001, 173.29999, 176.6, 173.29999, 177.29999, 172.29999, 177.29999, 172.29999, 179.29999, 171.29999, 179.29999, 171.29999, 181.29999, 170.29999, 181.29999, 170.29999, 183.29999, 169.29999, 183.29999, 169.29999, 184.29999, 168.29999, 184.29999, 168.29999, 186.29999, 167.29999, 186.29999, 167.29999, 188.6, 164.29999, 190.6, 164.29999, 192.6, 150.29999, 205.70001, 150.29999, 206.29999, 148.29999, 206.29999, 148.29999, 207.6, 146.29999, 208.6, 146.29999, 209.29999, 144.29999, 209.29999, 144.29999, 210.29999, 143.29999, 210.29999, 143.29999, 211.29999, 141.29999, 211.29999, 141.29999, 212.4, 138.29999, 213.5, 138.29999, 214.29999, 136.29999, 214.29999, 136.29999, 215.29999, 134.29999, 215.29999, 134.29999, 216.29999, 132.29999, 216.29999, 132.29999, 217.4, 126.29999, 219.5, 126.29999, 220.4, 121.29999, 221.4, 121.29999, 222.29999, 118.29999, 222.29999, 118.29999, 223.4, 109.29999, 225.4, 109.29999, 226.29999, 105.29999, 226.29999, 105.29999, 227.29999, 100.29999, 227.29999, 100.29999, 228.29999, 93.29999, 228.29999, 93.29999, 229.29999, 74.70001, 229.29999, 74.70001, 228.29999, 72.29999, 228.29999, 73.399994, 226.70001, 74.70001, 226.70001, 74.70001, 224.70001, 75.70001, 224.70001, 75.70001, 222.70001, 76.5, 222.70001, 78.5, 216.70001, 79.600006, 216.70001, 80.600006, 210.70001, 81.70001, 210.70001, 81.70001, 206.70001, 82.70001, 206.70001, 82.70001, 200.70001, 83.70001, 200.70001, 83.70001, 187.29999, 82.70001, 187.29999, 82.70001, 181.29999, 81.70001, 181.29999, 81.70001, 177.29999, 80.70001, 177.29999, 80.70001, 174.29999, 79.70001, 174.29999, 79.70001, 171.29999, 78.70001, 171.29999, 78.70001, 169.29999, 77.70001, 169.29999, 77.70001, 167.29999, 76.70001, 167.29999, 76.70001, 165.29999, 75.70001, 165.29999, 75.70001, 163.6, 73.70001, 162.6, 73.70001, 160.70001, 64.70001, 152.6, 64.70001, 151.5, 61.700012, 150.4, 61.700012, 149.5, 55.700012, 147.4, 55.700012, 146.4, 49.700012, 145.4, 49.700012, 144.29999, 33.299988, 144.29999, 33.299988, 145.29999, 29.299988, 145.29999, 29.299988, 146.29999, 26.299988, 146.29999, 26.299988, 147.29999, 23.299988, 147.29999, 23.299988, 148.29999, 21.299988, 148.29999, 21.299988, 149.29999, 19.600006, 149.29999, 18.600006, 151.29999, 16.700012, 151.29999, 10.700012, 158.29999, 9.299988, 158.29999, 9.299988, 160.29999, 8.299988, 160.29999, 8.299988, 161.29999, 7.299988, 161.29999, 7.299988, 163.29999, 6.399994, 163.29999, 5.399994, 169.29999, 4.299988, 169.29999, 4.299988, 186.70001, 5.299988, 186.70001, 5.299988, 190.70001, 6.299988, 190.70001, 6.299988, 193.70001, 7.299988, 193.70001, 7.299988, 195.70001, 8.299988, 195.70001, 8.299988, 198.70001, 9.299988, 198.70001, 9.299988, 200.70001, 10.299988, 200.70001, 10.299988, 201.70001, 11.299988, 201.70001, 11.299988, 203.70001, 12.299988, 203.70001, 12.299988, 205.70001, 13.299988, 205.70001, 13.299988, 206.70001, 14.299988, 206.70001, 14.299988, 208.29999, 18.299988, 211.29999, 18.299988, 213.29999, 25.299988, 219.29999, 25.299988, 220.70001, 27.299988, 220.70001, 27.299988, 221.4, 30.299988, 223.4, 30.299988, 224.70001, 32.299988, 224.70001, 32.299988, 225.70001, 33.299988, 225.70001, 33.299988, 226.5, 36.299988, 227.5, 36.299988, 228.70001, 38.299988, 228.70001, 38.299988, 229.70001, 40.299988, 229.70001, 40.299988, 230.70001, 42.299988, 230.70001, 42.299988, 231.70001, 44.299988, 231.70001, 44.299988, 232.70001, 46.299988, 232.70001, 46.299988, 233.5, 48.600006, 234.29999, 47.299988, 234.29999, 47.299988, 235.29999, 46.299988, 235.29999, 46.299988, 236.29999, 44.299988, 236.29999, 44.299988, 237.4, 38.299988, 239.5, 38.299988, 240.29999, 36.299988, 240.29999, 36.299988, 241.29999, 33.299988, 241.29999, 33.299988, 242.4, 24.299988, 244.4, 24.299988, 245.29999, 14.299988, 246.4, 14.299988, 247.29999, 6.299988, 247.29999, 6.299988, 248.29999, -27.299988, 248.29999, -27.299988, 247.29999, -36.300003, 247.29999, -36.300003, 246.29999, -42.300003, 246.29999, -42.300003, 245.29999, -48.300003, 245.29999, -48.300003, 244.29999, -52.300003, 244.29999, -52.300003, 243.29999, -56.300003, 243.29999, -56.300003, 242.29999, -59.300003, 242.29999, -59.300003, 241.29999, -62.300003, 241.29999, -62.300003, 240.29999, -65.3, 240.29999, -65.3, 239.29999, -68.3, 239.29999, -68.3, 238.29999, -70.3, 238.29999, -70.3, 237.29999, -72.3, 237.29999, -72.3, 236.29999, -74.3, 236.29999, -74.3, 235.29999, -77.3, 235.29999, -77.3, 234.29999, -78.3, 234.29999, -78.3, 233.29999, -80.3, 233.29999, -80.3, 232.29999, -82.3, 232.29999, -82.3, 231.29999, -84.3, 231.29999, -84.3, 230.29999, -85.3, 230.29999, -85.3, 229.5, -87.600006, 228.70001, -87.3, 227.70001, -82.3, 227.70001, -82.3, 226.70001, -78.3, 226.70001, -78.3, 225.70001, -74.3, 225.70001, -74.3, 224.70001, -72.3, 224.70001, -72.3, 223.70001, -69.3, 223.70001, -69.3, 222.70001, -67.3, 222.70001, -67.3, 221.70001, -65.3, 221.70001, -65.3, 220.70001, -63.300003, 220.70001, -63.300003, 219.70001, -62.300003, 219.70001, -62.300003, 218.70001, -60.600006, 218.70001, -59.600006, 216.70001, -57.699997, 216.70001, -49.699997, 207.70001, -48.300003, 207.70001, -48.300003, 205.70001, -47.300003, 205.70001, -47.300003, 204.70001, -46.5, 204.70001, -45.5, 201.70001, -44.300003, 201.70001, -44.300003, 199.70001, -43.300003, 199.70001, -43.300003, 197.70001, -42.300003, 197.70001, -42.300003, 194.70001, -41.300003, 194.70001, -41.300003, 191.70001, -40.300003, 191.70001, -40.300003, 185.70001, -39.300003, 185.70001, -39.300003, 175.29999, -40.300003, 175.29999, -40.300003, 170.29999, -41.300003, 170.29999, -41.300003, 166.29999, -42.300003, 166.29999, -42.300003, 164.29999, -43.300003, 164.29999, -43.300003, 162.29999, -44.300003, 162.29999, -44.300003, 160.29999, -45.300003, 160.29999, -45.300003, 158.6, -47.300003, 157.6, -47.300003, 155.70001, -57.300003, 146.6, -57.300003, 145.5, -60.300003, 144.4, -60.300003, 143.29999, -62.300003, 143.29999, -62.300003, 142.5, -65.3, 141.4, -65.3, 140.29999, -68.3, 140.29999, -68.3, 139.5, -72.3, 138.4, -72.3, 137.4, -78.3, 136.4, -78.3, 135.29999, -83.3, 135.29999, -83.3, 134.29999, -97.7, 134.29999, -97.7, 135.29999, -101.7, 135.29999, -101.7, 136.29999, -104.7, 136.29999, -104.7, 137.29999, -106.7, 137.29999, -106.7, 138.29999, -108.7, 138.29999, -108.7, 139.29999, -110.399994, 139.29999, -112.399994, 142.29999, -114.3, 142.29999, -117.399994, 146.29999, -118.7, 146.29999, -118.7, 148.29999, -119.399994, 148.29999, -120.399994, 150.29999, -121.7, 150.29999, -121.7, 152.29999, -122.5, 152.29999, -124.5, 158.29999, -125.600006, 158.29999, -126.600006, 165.29999, -127.7, 165.29999, -127.7, 170.29999, -128.7, 170.29999, -128.7, 186.70001, -127.7, 186.70001, -127.7, 192.70001, -126.7, 192.70001, -126.7, 196.70001, -125.7, 196.70001, -125.7, 199.70001, -124.7, 199.70001, -124.7, 202.70001, -123.7, 202.70001, -123.7, 204.70001, -122.7, 204.70001, -122.7, 206.70001, -121.7, 206.70001, -121.7, 208.70001, -120.7, 208.70001, -120.7, 210.70001, -119.7, 210.70001, -119.7, 212.70001, -118.7, 212.70001, -118.7, 214.4, -116.7, 215.4, -116.7, 216.29999, -117.3, 216.29999, -117.3, 215.29999, -122.3, 215.29999, -122.3, 214.29999, -126.3, 214.29999, -126.3, 213.29999, -129.3, 213.29999, -129.3, 212.29999, -132.3, 212.29999, -132.3, 211.29999, -135.3, 211.29999, -135.3, 210.29999, -138.3, 210.29999, -138.3, 209.29999, -141.3, 209.29999, -141.3, 208.29999, -143.3, 208.29999, -143.3, 207.29999, -145.3, 207.29999, -145.3, 206.29999, -148.3, 206.29999, -148.3, 205.29999, -150.3, 205.29999, -150.3, 204.29999, -152.3, 204.29999, -152.3, 203.29999, -154.3, 203.29999, -154.3, 202.29999, -156.3, 202.29999, -156.3, 201.29999, -158.3, 201.29999, -158.3, 200.29999, -160.3, 200.29999, -160.3, 199.29999, -162.3, 199.29999, -162.3, 198.29999, -163.3, 198.29999, -163.3, 197.29999, -165.3, 197.29999, -165.3, 196.29999, -167.3, 196.29999, -167.3, 195.29999, -169.3, 195.29999, -169.3, 194.29999, -170.3, 194.29999, -170.3, 193.29999, -172.3, 193.29999, -172.3, 192.29999, -173.3, 192.29999, -173.3, 191.29999, -175.3, 191.29999, -175.3, 190.29999, -176.3, 190.29999, -176.3, 189.29999, -178.6, 189.29999, -179.6, 187.29999, -181.6, 187.29999, -183.6, 184.29999, -185.6, 184.29999, -187.6, 181.29999, -189.7, 181.29999, -202.7, 167.29999, -203.3, 167.29999, -203.3, 165.29999, -204.6, 165.29999, -205.6, 163.29999, -206.5, 163.29999, -207.5, 160.29999, -208.3, 160.29999, -208.3, 158.29999, -209.3, 158.29999, -209.3, 156.29999, -210.3, 156.29999, -210.3, 154.29999, -211.3, 154.29999, -211.3, 152.29999, -212.3, 152.29999, -212.3, 150.29999, -213.3, 150.29999, -213.3, 147.29999, -214.3, 147.29999, -214.3, 144.29999, -215.3, 144.29999, -215.3, 141.70001, -212.7, 141.70001, -212.7, 142.70001, -198.3, 142.70001, -198.3, 141.70001, -192.3, 141.70001, -192.3, 140.70001, -188.3, 140.70001, -188.3, 139.70001, -185.3, 139.70001, -185.3, 138.70001, -182.3, 138.70001, -182.3, 137.70001, -180.3, 137.70001, -180.3, 136.70001, -178.3, 136.70001, -178.3, 135.70001, -176.3, 135.70001, -176.3, 134.70001, -174.3, 134.70001, -174.3, 133.70001, -172.6, 133.70001, -171.6, 131.70001, -169.7, 131.70001, -161.7, 122.70001, -160.3, 122.70001, -160.3, 120.70001, -159.3, 120.70001, -159.3, 119.70001, -158.5, 119.70001, -157.4, 115.70001, -156.3, 115.70001, -156.3, 112.70001, -155.3, 112.70001, -155.3, 107.70001, -154.3, 107.70001, -154.3, 101.29999, -155.3, 101.29999, -155.3, 96.29999, -156.3, 96.29999, -156.3, 94.29999, -157.3, 94.29999, -157.3, 91.29999, -158.3, 91.29999, -158.3, 90.29999, -159.3, 90.29999, -159.3, 88.70001, -164.3, 84.70001, -164.3, 83.5, -168.3, 82.399994, -168.3, 81.29999, -172.3, 81.29999, -172.3, 80.29999, -184.7, 80.29999, -184.7, 81.29999, -188.7, 81.29999, -188.7, 82.29999, -191.7, 82.29999, -191.7, 83.29999, -193.7, 83.29999, -193.7, 84.29999, -195.7, 84.29999, -195.7, 85.29999, -197.7, 85.29999, -197.7, 86.29999, -199.7, 86.29999, -199.7, 87.29999, -200.7, 87.29999, -200.7, 88.29999, -202.4, 88.29999, -203.4, 90.29999, -205.3, 90.29999, -214.3, 100.29999, -215.7, 100.29999, -215.7, 102.29999, -216.7, 102.29999, -216.7, 103.29999, -217.5, 103.29999, -218.5, 106.29999, -219.7, 106.29999, -219.7, 108.29999, -220.5, 108.29999, -222.5, 114.29999, -223.7, 114.29999, -223.7, 117.29999, -224.7, 117.29999, -224.7, 121.29999, -225.7, 121.29999, -225.7, 126.29999, -226.7, 126.29999, -226.7, 127.29999, -228.3, 127.29999, -228.3, 126.29999, -230.3, 126.29999, -230.3, 125.29999, -231.6, 125.29999, -232.6, 123.29999, -234.7, 123.29999, -240.7, 116.29999, -241.3, 116.29999, -241.3, 114.29999, -242.3, 114.29999, -242.3, 113.29999, -243.5, 113.29999, -244.5, 110.29999, -245.3, 110.29999, -245.3, 108.29999, -246.3, 108.29999, -246.3, 106.29999, -247.5, 106.29999, -249.5, 100.29999, -250.4, 100.29999, -252.4, 91.29999, -253.3, 91.29999, -253.3, 87.29999, -254.3, 87.29999, -254.3, 81.29999, -255.3, 81.29999, -255.3, 64.70001, -254.3, 64.70001, -254.3, 58.700012, -253.3, 58.700012, -253.3, 54.700012, -252.3, 54.700012, -252.3, 50.700012, -251.3, 50.700012, -251.3, 47.700012, -250.3, 47.700012, -250.3, 46.700012, -247.7, 46.700012, -247.7, 47.700012, -244.7, 47.700012, -244.7, 48.700012, -238.7, 48.700012, -238.7, 49.700012, -225.3, 49.700012, -225.3, 48.700012, -220.3, 48.700012, -220.3, 47.700012, -217.3, 47.700012, -217.3, 46.700012, -215.3, 46.700012, -215.3, 45.700012, -213.6, 45.700012, -212.6, 43.700012, -210.6, 43.700012, -208.6, 40.700012, -207.5, 40.700012, -206.5, 37.700012, -205.3, 37.700012, -205.3, 34.700012, -204.3, 34.700012, -204.3, 29.700012, -203.3, 29.700012, -203.3, 26.299988, -204.3, 26.299988, -204.3, 20.299988, -205.3, 20.299988, -205.3, 17.299988, -206.3, 17.299988, -206.3, 15.299988, -207.3, 15.299988, -207.3, 13.299988, -208.3, 13.299988, -208.3, 12.299988, -209.3, 12.299988, -209.3, 10.299988, -210.3, 10.299988, -210.3, 9.299988, -212.3, 9.299988, -212.3, 8.299988, -213.3, 8.299988, -213.3, 7.299988, -215.3, 7.299988, -215.3, 6.299988, -220.3, 6.299988, -220.3, 5.299988, -222.7, 5.299988, -222.7, 6.299988, -228.7, 6.299988, -228.7, 7.299988, -230.7, 7.299988, -230.7, 8.299988, -232.7, 8.299988, -232.7, 9.299988, -234.4, 9.299988, -235.4, 11.299988, -237.3, 11.299988, -245.3, 20.299988, -246.7, 20.299988, -246.7, 22.299988, -247.4, 22.299988, -248.4, 24.299988, -249.5, 24.299988, -250.5, 27.299988, -251.7, 27.299988, -251.7, 29.299988, -252.5, 29.299988, -254.5, 35.299988, -255.3, 35.299988, -255.3, 34.299988, -257.6, 34.299988, -258.6, 32.299988, -260.7, 32.299988, -267.7, 24.299988, -268.3, 24.299988, -268.3, 22.299988, -269.3, 22.299988, -269.3, 21.299988, -270.3, 21.299988, -270.3, 19.299988, -271.5, 19.299988, -273.5, 13.299988, -274.3, 13.299988, -274.3, 10.299988, -275.3, 10.299988, -275.3, 6.299988, -276.3, 6.299988, -276.3, 1.2999878, -277.3, 1.2999878, -277.3, -16.300003, -276.3, -16.300003, -276.3, -22.300003, -275.3, -22.300003, -275.3, -26.300003, -274.3, -26.300003, -274.3, -29.300003, -273.3, -29.300003, -273.3, -31.300003, -272.3, -31.300003, -272.3, -34.300003, -271.3, -34.300003, -271.3, -36.300003, -270.3, -36.300003, -270.3, -38.600006, -268.3, -39.600006, -268.3, -41.600006, -266.3, -42.600006, -266.3, -44.300003, -265.7, -44.300003, -261.7, -49.300003, -260.7, -49.300003, -260.7, -48.600006, -257.7, -46.600006, -257.7, -45.300003, -255.7, -45.300003, -255.7, -44.600006, -253.7, -43.600006, -253.7, -42.300003, -251.7, -42.300003, -251.7, -41.300003, -249.7, -41.300003, -249.7, -40.300003, -247.7, -40.300003, -247.7, -39.300003, -245.7, -39.300003, -245.7, -38.300003, -241.7, -38.300003, -241.7, -37.300003, -229.3, -37.300003, -229.3, -38.300003, -227.3, -38.300003, -227.3, -39.300003, -225.6, -39.300003, -223.6, -42.300003, -222.5, -42.300003, -221.4, -46.300003, -220.3, -46.300003, -220.3, -56.699997, -221.3, -56.699997, -221.3, -59.300003, -226.3, -63.300003, -226.3, -64.7, -228.3, -64.7, -228.3, -65.7, -231.3, -65.7, -231.3, -66.7, -243.7, -66.7, -243.7, -65.7, -247.7, -65.7, -247.7, -64.7, -250.7, -64.7, -250.7, -63.699997, -252.7, -63.699997, -252.7, -62.699997, -254.7, -62.699997, -254.7, -61.699997, -256.7, -61.699997, -256.7, -60.699997, -258.4, -60.699997, -259.4, -58.699997, -260.6, -58.699997, -261.6, -60.699997, -262.4, -60.699997, -263.5, -64.7, -264.4, -64.7, -265.4, -70.7, -266.3, -70.7, -266.3, -75.7, -267.3, -75.7, -267.3, -86.3, -266.3, -86.3, -266.3, -92.3, -265.3, -92.3, -265.3, -96.3, -264.3, -96.3, -264.3, -98.3, -263.3, -98.3, -263.3, -101.3, -262.3, -101.3, -262.3, -103.3, -261.3, -103.3, -261.3, -105.3, -260.3, -105.3, -260.3, -107.600006, -258.3, -108.600006, -258.3, -110.600006, -255.3, -112.600006, -255.3, -114.8, -249.3, -119.7, -249.3, -120.3, -247.3, -120.3, -247.3, -121.600006, -245.3, -122.600006, -245.3, -123.3, -243.3, -123.3, -243.3, -124.3, -241.6, -124.3, -240.6, -126.3, -239.7, -126.3, -239.7, -125.3, -238.7, -125.3, -238.7, -123.600006, -235.7, -121.600006, -235.7, -119.7, -229.7, -114.8, -229.7, -113.5, -226.7, -112.5, -226.7, -111.3, -224.7, -111.3, -224.7, -110.3, -222.7, -110.3, -222.7, -109.3, -213.3, -109.3, -213.3, -110.3, -211.6, -110.3, -210.6, -112.3, -209.3, -112.3, -209.3, -114.3, -208.3, -114.3, -208.3, -117.3, -207.3, -117.3, -207.3, -128.7, -208.3, -128.7, -208.3, -130.4, -210.3, -131.4, -210.3, -132.5, -213.3, -133.6, -213.3, -134.7, -216.3, -134.7, -216.3, -135.7, -230.7, -135.7, -230.7, -134.7, -237.3, -133.7, -238.4, -133.7, -239.5, -137.7, -240.3, -137.7, -240.3, -140.7, -241.3, -140.7, -241.3, -145.7, -242.3, -145.7, -242.3, -157.3, -241.3, -157.3, -241.3, -160.3, -240.3, -160.3, -240.3, -163.3, -239.3, -163.3, -239.3, -165.3, -238.3, -165.3, -238.3, -167.6, -235.3, -169.6, -235.3, -171.7, -231.3, -174.7, -231.3, -175.3, -229.3, -175.3, -229.3, -176.3, -228.3, -176.3, -228.3, -177.5, -225.3, -178.5, -225.3, -179.3, -223.3, -179.3, -223.3, -180.4, -217.3, -181.4, -217.3, -182.3, -211.7, -182.3, -211.7, -180.3, -210.7, -180.3, -210.7, -178.3, -209.7, -178.3, -209.7, -176.6, -207.7, -175.6, -207.7, -173.7, -199.7, -166.7, -199.7, -165.4, -194.7, -164.5, -194.7, -163.3, -191.3, -163.3, -191.3, -164.3, -188.3, -164.3, -188.3, -165.3, -187.5, -165.3, -186.4, -169.3, -185.3, -169.3, -185.3, -174.7, -186.3, -174.7, -186.3, -177.3, -191.3, -181.3, -191.3, -182.7, -193.3, -182.7, -193.3, -183.7, -195.3, -183.7, -195.3, -184.7, -198.3, -184.7, -198.3, -185.7, -202.3, -185.7, -202.3, -186.7, -210.3, -186.7, -210.3, -189.7, -211.3, -189.7, -211.3, -194.7, -212.3, -194.7, -212.3, -203.3, -211.3, -203.3, -211.3, -207.3, -210.3, -207.3, -210.3, -210.3, -209.3, -210.3, -209.3, -212.3, -208.3, -212.3, -208.3, -214.6, -206.3, -215.6, -206.3, -217.7, -199.3, -223.7, -199.3, -224.5, -196.3, -225.5, -196.3, -226.5, -191.3, -227.4, -191.3, -228.3, -188.3, -228.3, -188.3, -229.3, -180.7, -229.3, -180.7, -223.3, -179.7, -223.3, -179.7, -220.3, -178.7, -220.3, -178.7, -218.3, -177.7, -218.3, -177.7, -216.7, -171.7, -211.8, -171.7, -210.3, -169.7, -210.3, -169.7, -209.3, -162.3, -209.3, -162.3, -210.3, -160.6, -210.3, -159.6, -212.3, -158.3, -212.3, -158.3, -214.3, -157.3, -214.3, -157.3, -219.7, -158.3, -219.7, -158.3, -221.7, -159.3, -221.7, -159.3, -223.4, -162.3, -225.4, -162.3, -226.5, -165.3, -227.6, -165.3, -228.7, -167.3, -228.7, -167.3, -229.7, -169.3, -229.7, -169.3, -230.7, -172.3, -230.7, -172.3, -231.7, -175.3, -231.7, -175.3, -232.7, -178.3, -232.7)

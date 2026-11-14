@@ -1,0 +1,100 @@
+[gd_scene format=3 uid="uid://cxwx4hruofuxv"]
+
+[ext_resource type="Script" uid="uid://dy5hgnbefonjc" path="res://scripts/brick_template.gd" id="1_6sgma"]
+[ext_resource type="Texture2D" uid="uid://craan2m5r3inb" path="res://assets/img/flowers/blue1/Asset-3@10x.png" id="2_6sgma"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vqba7"]
+radius = 268.00748
+
+[sub_resource type="Animation" id="Animation_nh2oy"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TextureRect:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_n5mi8"]
+resource_name = "disappear"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1.25, 1.25)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TextureRect:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ug5mf"]
+_data = {
+&"RESET": SubResource("Animation_nh2oy"),
+&"disappear": SubResource("Animation_n5mi8")
+}
+
+[node name="BrickTemplate" type="StaticBody2D" unique_id=69732412]
+script = ExtResource("1_6sgma")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1779507382]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -129.5
+offset_top = -129.5
+offset_right = 129.5
+offset_bottom = 129.5
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("2_6sgma")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=397300885]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=637551172]
+position = Vector2(0, 11)
+shape = SubResource("CircleShape2D_vqba7")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=517919400]
+libraries/ = SubResource("AnimationLibrary_ug5mf")
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="." unique_id=1199970878]
+polygon = PackedVector2Array(-100, -233, -164, -182, -210, -106, -220, -1, -194, 81, -117, 159, -1, 194, 111, 165, 183, 100, 222, 1, 213, -105, 164, -184, 103, -235, 193, -177, 233, -124, 262, -60, 271, 1, 261, 84, 234, 150, 192, 202, 134, 246, 69, 270, -2, 281, -72, 272, -135, 245, -193, 200, -233, 145, -261, 79, -269, -1, -259, -62, -232, -126, -183, -187)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
