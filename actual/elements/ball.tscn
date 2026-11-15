@@ -1,12 +1,16 @@
 [gd_scene format=3 uid="uid://tb1uixtl4kok"]
 
 [ext_resource type="Script" uid="uid://c25ndeim47n8c" path="res://actual/elements/ball.gd" id="1_phcul"]
+[ext_resource type="Texture2D" uid="uid://b4fpnwsnvn81l" path="res://assets/img/flowers/red1/Asset-1@4x.png" id="2_dbk54"]
+[ext_resource type="Texture2D" uid="uid://clsf3jcpjkhn7" path="res://assets/img/flowers/red1/Asset-4@4x.png" id="3_rql3f"]
+[ext_resource type="Texture2D" uid="uid://cmcttkbxkkv64" path="res://assets/img/flowers/red2/Asset-20@4x.png" id="4_6a7bw"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_i1vqv"]
 friction = 0.0
 bounce = 1.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_j3yc3"]
+radius = 110.0
 
 [node name="Ball" type="RigidBody2D" unique_id=445269483]
 physics_material_override = SubResource("PhysicsMaterial_i1vqv")
@@ -14,21 +18,19 @@ gravity_scale = 0.0
 script = ExtResource("1_phcul")
 speed = 500.0
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1127679338]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -10.0
-offset_top = -10.0
-offset_right = 30.0
-offset_bottom = 30.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(0.5, 0.5)
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1779692645]
+texture = ExtResource("2_dbk54")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=454532137]
+position = Vector2(0, 21)
+texture = ExtResource("3_rql3f")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=280837188]
+position = Vector2(-23, -39)
+texture = ExtResource("4_6a7bw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1597166018]
+scale = Vector2(0.5, 0.5)
 shape = SubResource("CircleShape2D_j3yc3")
 debug_color = Color(0, 0.76862746, 0, 0.41960785)
 

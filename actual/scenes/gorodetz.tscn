@@ -1,0 +1,267 @@
+[gd_scene format=3 uid="uid://cg22cdexdq8m"]
+
+[ext_resource type="Script" uid="uid://cc4mlvn344f72" path="res://scripts/gorodetz.gd" id="1_das21"]
+[ext_resource type="PackedScene" uid="uid://cwgssm1qeea48" path="res://actual/elements/ramp.tscn" id="1_fnowe"]
+[ext_resource type="PackedScene" uid="uid://tb1uixtl4kok" path="res://actual/elements/ball.tscn" id="2_das21"]
+[ext_resource type="PackedScene" uid="uid://b57ihk0gp6mig" path="res://actual/elements/flowers/big_blue/big_blue.tscn" id="4_das21"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j3yc3"]
+size = Vector2(3808, 20)
+
+[node name="Gorodetz" type="Node2D" unique_id=988097061 node_paths=PackedStringArray("ball", "ramp")]
+script = ExtResource("1_das21")
+ball = NodePath("Ball")
+ramp = NodePath("Ramp")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=447579650]
+offset_left = -1788.0
+offset_top = -1092.0
+offset_right = 1815.0
+offset_bottom = 1048.0
+color = Color(0.81960785, 0.5921569, 0.27058825, 1)
+
+[node name="hud" type="CanvasLayer" parent="." unique_id=210596593]
+
+[node name="MarginContainer2" type="MarginContainer" parent="hud" unique_id=1244993650]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_right = 15
+
+[node name="HBoxContainer" type="HBoxContainer" parent="hud/MarginContainer2" unique_id=1491423413]
+layout_mode = 2
+alignment = 1
+
+[node name="lives" type="Label" parent="hud/MarginContainer2/HBoxContainer" unique_id=201285038]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "3"
+
+[node name="MarginContainer2" type="MarginContainer" parent="hud/MarginContainer2/HBoxContainer" unique_id=647376107]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 150
+theme_override_constants/margin_bottom = 100
+
+[node name="start" type="ColorRect" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2" unique_id=192461969]
+layout_mode = 2
+color = Color(0.24313726, 0.2901961, 0.627451, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/start" unique_id=739711947]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 35
+theme_override_constants/margin_right = 150
+theme_override_constants/margin_bottom = 25
+
+[node name="VBoxContainer" type="VBoxContainer" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/start/MarginContainer" unique_id=1511059458]
+layout_mode = 2
+theme_override_constants/separation = 25
+
+[node name="Label" type="Label" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/start/MarginContainer/VBoxContainer" unique_id=660230897]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12156863, 0.14509805, 0.3529412, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 40
+text = "Городецкая роспись"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/start/MarginContainer/VBoxContainer" unique_id=639602835]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12156863, 0.14509805, 0.3529412, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 23
+text = "отличается яркими цветами и выразительными формами, в ней часто встречаются природные темы и повседневные мотивы."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Label3" type="Label" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/start/MarginContainer/VBoxContainer" unique_id=142197658]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12156863, 0.14509805, 0.3529412, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 1
+theme_override_font_sizes/font_size = 14
+text = "Разбейте все элементы, чтобы пройти уровень!"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="begin" type="Button" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/start/MarginContainer/VBoxContainer" unique_id=1129439124]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "НАЧАТЬ"
+
+[node name="fail" type="ColorRect" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2" unique_id=605115906]
+visible = false
+layout_mode = 2
+color = Color(0.24313726, 0.2901961, 0.627451, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/fail" unique_id=922614111]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 150
+
+[node name="VBoxContainer" type="VBoxContainer" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/fail/MarginContainer" unique_id=1577850009]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/fail/MarginContainer/VBoxContainer" unique_id=124992961]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "Ой..."
+horizontal_alignment = 1
+
+[node name="again" type="Button" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/fail/MarginContainer/VBoxContainer" unique_id=1271507862]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "ЕЩЁ РАЗ"
+
+[node name="exit" type="Button" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/fail/MarginContainer/VBoxContainer" unique_id=1549677248]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "ВЫЙТИ"
+
+[node name="win" type="ColorRect" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2" unique_id=1176078770]
+visible = false
+layout_mode = 2
+color = Color(0.24313726, 0.2901961, 0.627451, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/win" unique_id=748131320]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 150
+
+[node name="VBoxContainer" type="VBoxContainer" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/win/MarginContainer" unique_id=1401441592]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/win/MarginContainer/VBoxContainer" unique_id=1766099541]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "УРА!"
+horizontal_alignment = 1
+
+[node name="exit" type="Button" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/win/MarginContainer/VBoxContainer" unique_id=1893347081]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "НА КАРТУ"
+
+[node name="pause" type="ColorRect" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2" unique_id=893682662]
+visible = false
+layout_mode = 2
+color = Color(0.24313726, 0.2901961, 0.627451, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/pause" unique_id=330554765]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 150
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 150
+
+[node name="VBoxContainer" type="VBoxContainer" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/pause/MarginContainer" unique_id=1975603707]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/pause/MarginContainer/VBoxContainer" unique_id=1343050408]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "ПАУЗА"
+horizontal_alignment = 1
+
+[node name="continue" type="Button" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/pause/MarginContainer/VBoxContainer" unique_id=1417431878]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "ПРОДОЛЖИТЬ"
+
+[node name="exit" type="Button" parent="hud/MarginContainer2/HBoxContainer/MarginContainer2/pause/MarginContainer/VBoxContainer" unique_id=1570419612]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "НА КАРТУ"
+
+[node name="pause_button" type="Button" parent="hud/MarginContainer2/HBoxContainer" unique_id=538658664]
+custom_minimum_size = Vector2(50, 50)
+custom_maximum_size = Vector2(50, 50)
+layout_mode = 2
+size_flags_horizontal = 10
+text = "| |"
+
+[node name="Ramp" parent="." unique_id=1870165492 instance=ExtResource("1_fnowe")]
+position = Vector2(-1, 929)
+scale = Vector2(2, 2)
+
+[node name="Ball" parent="." unique_id=445269483 node_paths=PackedStringArray("ramp") instance=ExtResource("2_das21")]
+position = Vector2(-52, 876)
+scale = Vector2(2, 2)
+speed = 1000.0
+ramp = NodePath("../Ramp")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=321774347]
+zoom = Vector2(0.33, 0.33)
+
+[node name="death" type="Area2D" parent="." unique_id=2089203476]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="death" unique_id=243873217]
+position = Vector2(-1, 1001)
+shape = SubResource("RectangleShape2D_j3yc3")
+debug_color = Color(0.9837802, 0, 0.35420296, 0.41960785)
+
+[node name="bounds" type="StaticBody2D" parent="." unique_id=801081562]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="bounds" unique_id=1096967368]
+polygon = PackedVector2Array(-1745, 1024, -1745, -982, 1745, -982, 1746, 1018, 1815, 1018, 1815, -1023, -1793, -1035, -1789, 1029)
+
+[node name="BigBlue" parent="." unique_id=620189949 instance=ExtResource("4_das21")]
+position = Vector2(5, -455)
+
+[connection signal="pressed" from="hud/MarginContainer2/HBoxContainer/MarginContainer2/start/MarginContainer/VBoxContainer/begin" to="." method="_on_begin_pressed"]
+[connection signal="pressed" from="hud/MarginContainer2/HBoxContainer/MarginContainer2/fail/MarginContainer/VBoxContainer/again" to="." method="_on_again_pressed"]
+[connection signal="pressed" from="hud/MarginContainer2/HBoxContainer/MarginContainer2/fail/MarginContainer/VBoxContainer/exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="hud/MarginContainer2/HBoxContainer/MarginContainer2/win/MarginContainer/VBoxContainer/exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="hud/MarginContainer2/HBoxContainer/MarginContainer2/pause/MarginContainer/VBoxContainer/continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="hud/MarginContainer2/HBoxContainer/MarginContainer2/pause/MarginContainer/VBoxContainer/exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="hud/MarginContainer2/HBoxContainer/pause_button" to="." method="_on_pause_button_pressed"]
+[connection signal="body_entered" from="death" to="." method="_on_death_body_entered"]

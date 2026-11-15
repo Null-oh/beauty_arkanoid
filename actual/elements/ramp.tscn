@@ -1,30 +1,60 @@
 [gd_scene format=3 uid="uid://cwgssm1qeea48"]
 
-[ext_resource type="Script" uid="uid://c4jv06gdavsj1" path="res://scenes/elements/ramp.gd" id="1_v4v25"]
+[ext_resource type="Script" uid="uid://c4jv06gdavsj1" path="res://actual/elements/ramp.gd" id="1_v4v25"]
+[ext_resource type="Texture2D" uid="uid://bvgxg88p5tg4s" path="res://assets/img/flowers/leaf/Asset-1@4x.png" id="2_ef7v3"]
+[ext_resource type="Texture2D" uid="uid://b056k6mthhg7t" path="res://assets/img/flowers/leaf/Asset-2@4x.png" id="3_qqwlj"]
+[ext_resource type="Texture2D" uid="uid://e73312bu2xag" path="res://assets/img/flowers/leaf/Asset-3@4x.png" id="4_6216i"]
+[ext_resource type="Texture2D" uid="uid://b4jnks0aixddm" path="res://assets/img/flowers/leaf/Asset-4@4x.png" id="5_416pw"]
+[ext_resource type="Texture2D" uid="uid://d22ecpd6bj78g" path="res://assets/img/flowers/leaf/Asset-5@4x.png" id="6_vo1oo"]
+[ext_resource type="Texture2D" uid="uid://n0lgi6jsmsip" path="res://assets/img/flowers/leaf/Asset-6@4x.png" id="7_k371w"]
+[ext_resource type="Texture2D" uid="uid://bgusvbu4r6jn3" path="res://assets/img/flowers/leaf/Asset-7@4x.png" id="8_x62ne"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_v4v25"]
 friction = 0.0
 bounce = 1.0
 
 [node name="Ramp" type="StaticBody2D" unique_id=1870165492]
+scale = Vector2(1.335, 1.335)
 physics_material_override = SubResource("PhysicsMaterial_v4v25")
 script = ExtResource("1_v4v25")
 
-[node name="temp_texture" type="ColorRect" parent="." unique_id=1936908848]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -100.0
-offset_top = -20.0
-offset_right = 100.0
-offset_bottom = 20.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1154160076]
+position = Vector2(0.21536037, 4.807124)
+rotation = -1.5707964
+texture = ExtResource("2_ef7v3")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=832090364]
+position = Vector2(0.21536037, -38.63857)
+rotation = -1.5707964
+texture = ExtResource("3_qqwlj")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1001523454]
+position = Vector2(7.4906373, -55.43071)
+rotation = -1.5707964
+texture = ExtResource("4_6216i")
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=1464222849]
+position = Vector2(-54.681644, -33.707863)
+rotation = -1.5707964
+texture = ExtResource("5_416pw")
+
+[node name="Sprite2D5" type="Sprite2D" parent="." unique_id=306540395]
+position = Vector2(-8.988764, -25.468164)
+rotation = -1.5707964
+texture = ExtResource("6_vo1oo")
+
+[node name="Sprite2D6" type="Sprite2D" parent="." unique_id=1471447135]
+position = Vector2(34.456924, -11.235954)
+rotation = -1.5707964
+texture = ExtResource("7_k371w")
+
+[node name="Sprite2D7" type="Sprite2D" parent="." unique_id=1716076186]
+position = Vector2(77.15356, 8.988761)
+rotation = -1.5707964
+texture = ExtResource("8_x62ne")
 
 [node name="CollisionShape2D" type="CollisionPolygon2D" parent="." unique_id=165966168]
-polygon = PackedVector2Array(100, 0, 97, -10, 85, -20, 70, -28, 50, -35, 26, -39, 0, -40, -26, -39, -50, -35, -70, -28, -85, -20, -97, -10, -100, 0)
+polygon = PackedVector2Array(162.54681, -0.7490637, 138.57678, -36.70412, 102.62172, -65.16854, 73.40824, -79.40075, 47.19101, -89.13858, 23.220974, -93.63296, 0, -93.63296, -26.966291, -92.134834, -55.43071, -85.39326, -83.146065, -73.40824, -107.116104, -59.17603, -134.0824, -35.955055, -160.29962, -0.7490637)
 
 [node name="launch" type="Marker2D" parent="." unique_id=1916013657]
-position = Vector2(-48, -48)
+position = Vector2(-84.644196, -100.37453)

@@ -1,5 +1,6 @@
 extends Node
 
+var lives : int
 
 var colours = [
 	Color("2C5324"),

@@ -4,6 +4,8 @@ var active : bool = false
 @export var back : bool = false
 
 func _ready():
+	self.add_to_group("bricks")
+	
 	set_collision_layer_value(2, true)
 	set_collision_mask_value(1, true)
 	set_collision_mask_value(2, false)
@@ -11,7 +13,6 @@ func _ready():
 	contact_monitor = true
 	max_contacts_reported = 1000
 	freeze_mode = RigidBody2D.FREEZE_MODE_KINEMATIC
-	#freeze = true
 	gravity_scale = 0.0
 	linear_velocity = Vector2.ZERO
 	angular_velocity = 0.0
